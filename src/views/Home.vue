@@ -7,18 +7,16 @@
             <div class="kkk navbar is-left">
               <a
                 @click="login"
-                style="border-right: 1px solid #898989"
-                class="has-background-white left navbar-item"
+                style="border: 1px solid #898989"
+                class="left navbar-item"
               >
                 <small>{{user ? "Enter app" : "Log in"}}</small>
-              </a>
-              <a @click="handleClick(`/products`)" class="has-background-white right navbar-item">
-                <small>For Companies</small>
               </a>
             </div>
           </div>
         </div>
       </nav>
+
       <div class="hero-body">
         <div class="container has-text-centered">
           <img src="@/assets/logo_white.png" style="width: 100px;">
@@ -26,10 +24,15 @@
         </div>
         <div class="container has-text-centered">
           <a
-            @click="navigate"
+            @click="handleClick(`/products`)"
             target="_blank"
             class="button is-pd-pink spacing"
-          >Find your destination!</a>
+          >For Companies</a>
+
+          <a
+            target="_blank"
+            class="button is-pd-pink spacing"
+          >For Students</a>
         </div>
       </div>
     </section>
@@ -61,10 +64,42 @@
         </div>
       </div>
     </div>
-    <Intro/>
+
+    <div class="hero pd-intro is-home" >
+      <div class="section" style="background-color:#cccccc; overflow: auto;">
+        <div class="hero-body has-text-centered">
+          <h1 class="title pd-font uppercase spacing">
+            What is Project Destination?
+          </h1>
+          <div class="hero-body has-text-center">
+          <div class="columns">
+            <div class="column">
+              <p>
+                <span class=""><strong>Project Destination</strong> is a successful KTH-platform with a focus on displaying the wide range of career paths available to our students. We organize events where students and companies meet and establish contact for future collaborations. Every company wants to hire the best employees, but finding them can be difficult. 
+                </span>
+              </p>
+            </div>
+            <div class="column">
+              <p>
+                <span class=""> 
+                Through our wide network and marketing channels, we will reach out to the candidates you are looking for. Project Destination <strong>creates value for both companies and students</strong>. In our product catalog you can read more about our events and choose what suits your company best. All events are tailored to your needs and the audience that you are interested in. We hereby invite you to participate in Project Destination to inspire, discover and connect!
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+          </div>
+      </div>
+    </div>
 
     <TheTeam/>
-    <section class="hero pd-intro is-medium background3 is-bold">
+    
+  </div>
+</template>
+<script>
+// @ is an alias to /src
+/* <section class="hero pd-intro is-medium background3 is-bold">
       <div class="section has-text-centered">
         <h1
           style="background-color: #000; display:inline-block;"
@@ -87,10 +122,7 @@
         </div>
       </div>
     </section>
-  </div>
-</template>
-<script>
-// @ is an alias to /src
+*/
 import Hero from "@/components/Hero";
 import HeroSmall from "@/components/HeroSmall";
 import Level from "@/components/Level";
@@ -163,7 +195,7 @@ export default {
 }
 .background {
   background: linear-gradient(rgba(#ef9bc1, 0.2), rgba(#ef9bc1, 0.5)),
-    url(../assets/beach.jpg) center !important;
+    url(../assets/team1918.jpeg) center !important;
   background-size: cover !important;
   min-height: 70vh;
 }

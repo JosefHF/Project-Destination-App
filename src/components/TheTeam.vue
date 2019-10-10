@@ -3,63 +3,13 @@
     <div class="section">
       <div class="hero-body has-text-centered">
         <h1 class="title pd-font uppercase spacing">
-          The Roles in Project Destination
+          The team
         </h1>
-        
+        <h2 class="subtitle pd-font uppercase spacing">
+          18/19
+        </h2>
         <div class="container">
           <div class="content pd-font">
-            <div class="columns content-container">
-                <div class="column">
-                <Profile :data="team.projectl">
-                </Profile>
-              </div>
-              <div class="column">
-                <Profile :data="team.projectv">
-                </Profile>
-              </div>
-              <div class="column">
-                <Profile :data="team.sales">
-                </Profile>
-              </div>
-            
-              
-              
-              </div>
-              <div class="columns content-container">
-                
-                 </div>
-
-             <div class="columns content-container">
-               <div class="column">
-                <Profile :data="team.marketing">
-                </Profile>
-              </div>
-              <div class="column">
-                <Profile :data="team.event">
-                </Profile>
-              </div>
-              </div>
-             <div class="columns content-container">
-               <div class="column">
-                <Profile :data="team.ir">
-                </Profile>
-              </div>
-               <div class="column">
-                <Profile :data="team.it">
-                </Profile>
-              </div> 
-               <div class="column">
-                <Profile :data="team.ad">
-                </Profile>
-              </div>
-
-               </div>
-               <h1 class="title pd-font uppercase spacing">
-                          The team
-              </h1>
-                <h2 class="subtitle pd-font uppercase spacing">
-                            18/19
-              </h2>
             <div class="columns content-container">
               <div class="column">
                 <Profile :data="team.hanna">
