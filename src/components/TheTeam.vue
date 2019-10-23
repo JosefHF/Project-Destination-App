@@ -13,44 +13,44 @@
             <div class="columns content-container">
               <div class="column">
                 <Profile :data="team.hanna">
-                  <img class="img" src="@/assets/team/hanna.jpg" slot="image" />
+                  <img class="img" src="@/assets/team/hanna.png" slot="image" />
                 </Profile>
               </div>
               <div class="column">
-                <Profile :data="team.denice">
-                  <img class="img" src="@/assets/team/denice.jpg" slot="image" />
+                <Profile :data="team.vera">
+                  <img class="img" src="@/assets/team/vera.png" slot="image" />
                 </Profile>
               </div>
               <div class="column">
-                <Profile :data="team.oscar">
-                  <img class="img" src="@/assets/team/oscar.jpg" slot="image" />
+                <Profile :data="team.gabriella">
+                  <img class="img" src="@/assets/team/gabriella.png" slot="image" />
                 </Profile>
               </div>
               <div class="column">
-                <Profile :data="team.soner">
-                  <img class="img" src="@/assets/team/soner.jpg" slot="image" />
+                <Profile :data="team.anna">
+                  <img class="img" src="@/assets/team/anna.png" slot="image" />
                 </Profile>
               </div>
             </div>
             <div class="columns content-container">
               <div class="column">
-                <Profile :data="team.linnea">
-                  <img class="img" src="@/assets/team/linnea.jpg" slot="image" />
+                <Profile :data="team.maroun">
+                  <img class="img" src="@/assets/team/maroun.png" slot="image" />
                 </Profile>
               </div>
               <div class="column">
-                <Profile :data="team.burre">
-                  <img class="img" src="@/assets/team/burre.jpg" slot="image" />
+                <Profile :data="team.josef">
+                  <img class="img" src="@/assets/team/josef.png" slot="image" />
                 </Profile>
               </div>
               <div class="column">
-                <Profile :data="team.ullis">
-                  <img class="img" src="@/assets/team/ullis.jpg" slot="image" />
+                <Profile :data="team.lisa">
+                  <img class="img" src="@/assets/team/lisa.png" slot="image" />
                 </Profile>
               </div>
               <div class="column">
-                <Profile :data="team.eve">
-                  <img class="img" src="@/assets/team/eve.jpg" slot="image" />
+                <Profile :data="team.julian">
+                  <img class="img" src="@/assets/team/julian.png" slot="image" />
                 </Profile>
               </div>
           
@@ -59,13 +59,13 @@
               <div class="column">
               </div>
               <div class="column is-one-quarter">
-                <Profile :data="team.jossan">
-                  <img class="img" src="@/assets/team/jossan.jpg" slot="image" />
+                <Profile :data="team.felix">
+                  <img class="img" src="@/assets/team/felix.png" slot="image" />
                 </Profile>
               </div>
               <div class="column">
-                <Profile :data="team.tesen">
-                  <img class="img" src="@/assets/team/tesen.jpg" slot="image" />
+                <Profile :data="team.sofia">
+                  <img class="img" src="@/assets/team/sofia.png" slot="image" />
                 </Profile>
               </div>
               <div class="column">
@@ -99,17 +99,7 @@ import {
   EVENT,
   IR,
   AD,
-  IT,
-  ERIK,
-  SONER,
-  DENICE,
-  JOSEFIN,
-  HANNA,
-  ULRIKA,
-  OSCAR,
-  LINNEA,
-  BURHAN,
-  EVELINE
+  IT
 } from "@/constants/home";
 
 export default {
@@ -176,63 +166,63 @@ export default {
           linkedin:
             "https://www.projectdestination.se/event/MB7T0YsFI2Jil7GiQ2xn/"
         },
-        soner: {
-          name: "Soner Vergon",
-          text: SONER,
-          role: "Art Director, <br /> Head of app",
-          linkedin: "https://www.linkedin.com/in/soner-vergon/"
+        anna: {
+          name: "Anna Phan",
+          text: "",
+          role: "Art Director",
+          linkedin: ""
         },
-        tesen: {
-          name: "Erik Tällberg",
-          text: ERIK,
+        sofia: {
+          name: "Sofia Larsson",
+          text: "",
           role: "Project Manager",
-          linkedin: "https://www.linkedin.com/in/eriktallberg/"
+          linkedin: ""
         },
-        denice: {
-          name: "Denice Dawoud",
-          text: DENICE,
+        vera: {
+          name: "Vera Werner",
+          text: "",
           role: "International Relations Manager",
-          linkedin: "https://www.linkedin.com/in/denicedawoud/"
+          linkedin: ""
         },
-        jossan: {
-          name: "Josefin Osbjer",
-          text: JOSEFIN,
+        felix: {
+          name: "Felix Ewert",
+          text: "",
           role: "Vice Project Manager",
-          linkedin: "https://www.linkedin.com/in/josefin-osbjer/"
+          linkedin: ""
         },
         hanna: {
-          name: "Hanna Söderlund",
-          text: HANNA,
+          name: "Hanna Kerek",
+          text: "",
           role: "Event manager",
-          linkedin: "https://www.linkedin.com/in/hannasoderlund1/"
+          linkedin: ""
         },
-        ullis: {
-          name: "Ulrika Solheim",
-          text: ULRIKA,
+        lisa: {
+          name: "Lisa A. Olsson",
+          text: "",
           role: "Event Manager",
-          linkedin: "https://www.linkedin.com/in/ulrika-solheim-b682a4100/"
+          linkedin: ""
         },
-        oscar: {
-          name: "Oscar Hjelm",
-          text: OSCAR,
+        gabriella: {
+          name: "Gabriella Westman",
+          text: "",
           role: "International Relations Manager"
         },
-        linnea: {
-          name: "Linnea Axelsson",
-          text: LINNEA,
+        maroun: {
+          name: "Maroun R Nasr",
+          text: "",
           role: "Sales Manager"
         },
-        burre: {
-          name: "Burhan Hashi",
-          text: BURHAN,
-          role: "IT Manager",
-          linkedin: "https://www.linkedin.com/in/burhan-hashi-1419b7106/"
+        josef: {
+          name: "Josef Holmgren Faghihi",
+          text: "",
+          role: "IT Manager, <br /> Head of app",
+          linkedin: ""
         },
-        eve: {
-          name: "Eveline Haugaard",
-          text: EVELINE,
+        julian: {
+          name: "Julian Jaramillo",
+          text: "",
           role: "Marketing Manager",
-          linkedin: "https://www.linkedin.com/in/eveline-haugaard-6b9891152/"
+          linkedin: ""
         }
       }
     };
