@@ -19,7 +19,8 @@ export const EVENT_TYPES = [
   "Fruit Boost",
   "Goodie Handout",
   "Tailored Marketing",
-  "Walk And Talk"
+  "Walk And Talk",
+  "Stand event"
 ];
 
 export const FORM_MAX_CHARS = [
