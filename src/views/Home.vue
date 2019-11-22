@@ -24,7 +24,7 @@
         </div>
         <div class="container has-text-centered">
           <a
-            @click="handleClick(`/products`)"
+            @click="handleClick(`/companies`)"
             target="_blank"
             class="button is-pd-pink spacing"
           >For Companies</a>

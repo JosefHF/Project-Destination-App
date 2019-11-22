@@ -6,5 +6,16 @@ import Create from "./Create";
 import Products from "./Products";
 import Form from "./Form";
 import Event from "./Event";
+import Companies from "./Companies";
 
-export default [App, Home, About, NoAccess, Create, Products, Form, Event];
+export default [
+  App,
+  Home,
+  About,
+  NoAccess,
+  Create,
+  Products,
+  Form,
+  Event,
+  Companies
+];
