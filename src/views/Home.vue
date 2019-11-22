@@ -64,7 +64,7 @@
         </div>
       </div>
     </div>
-
+<!--
     <div class="hero pd-intro is-home" >
       <div class="section" style="background-color:#cccccc; overflow: auto;">
         <div class="hero-body has-text-centered">
@@ -92,6 +92,7 @@
           </div>
       </div>
     </div>
+  -->
 
     <TheTeam/>
     
