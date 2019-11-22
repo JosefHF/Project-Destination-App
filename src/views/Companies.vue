@@ -249,7 +249,7 @@ export default {
 .background4 {
   background: url(../assets/forCompanies/eventpic4.jpg) center !important;
   background-size: cover !important;
-  min-height: 110vh;
+  min-height: 115vh;
 }
 .background5 {
   background: url(../assets/forCompanies/eventpic5.jpg) center !important;
