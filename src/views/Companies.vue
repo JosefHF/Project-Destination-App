@@ -52,7 +52,7 @@
          </div>
          <div class="columns" style="text-align: center;" data-aos="fade-up">
          	<div class="column"></div>
-         	<div class="column-10" style="font-size: 150%; width: 700px;">We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
+         	<div class="column-2" style="font-size: 150%;">We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
             <br>
             <br>
             We tailor everything accordning to your needs, but to give you some inspiration, we have listed some standard events below
@@ -96,18 +96,17 @@
         <div>
           <h1 style="background: #cebf98; font-size: 200%"> Meet the Early Birds</h1>
           <br><br><br><br>
-          <div style="background: #ded4bb; font-size: 150%; border-radius: 25px;padding: 10px; width: 400px">
+          <div class="text" style="background: #ded4bb; font-size: 150%; border-radius: 25px;padding: 10px;">
             A breakfast seminar at KTH campus or your office will give your representatives the time for a short presentation about the opportunities at your company. Combine the most important meal of the day with mingle and by giving the students a closer look at your company’s culture in a relaxed setting. We will gather students who match your company’s profile and arrange breakfast for all participants
           </div> 
         </div>
-        
       </div>
       <div class="column" style="text-align: center;">
         <div>
           <h1 style="background: #cebf98; font-size: 200%">Walk and Talk
           </h1>
           <br><br><br><br>
-          <div style="background: #ded4bb; font-size: 150%; border-radius: 25px;padding: 10px; width: 400px;">Does your company likes to follow the latest trends? Then this event is something for you. Walk and talk gives you the opportunity to meet students in a natural and fun way. Studies shows that walk and talk meetings gives better personal connection, decreases stress and increases creativity compared to a normal meeting. The event ends with a healthy and delicious breakfast. <!-- Title: #e3be89 body: #dec39e -->
+          <div class="text" style="background: #ded4bb; font-size: 150%; border-radius: 25px;padding: 10px;">Does your company likes to follow the latest trends? Then this event is something for you. Walk and talk gives you the opportunity to meet students in a natural and fun way. Studies shows that walk and talk meetings gives better personal connection, decreases stress and increases creativity compared to a normal meeting. The event ends with a healthy and delicious breakfast. <!-- Title: #e3be89 body: #dec39e -->
           </div>
         </div>
       </div>
@@ -149,7 +148,7 @@
           <h1 style="background: #e6a1a1; font-size: 200%">Eat and Meet
           </h1>
           <br><br><br><br>
-          <div style="background: #f1c9c9; font-size: 150%; width: 400px; border-radius: 25px;padding: 10px;">
+          <div class="text" style="background: #f1c9c9; font-size: 150%; border-radius: 25px;padding: 10px;">
             Present your company’s career opportunities and culture, while the students are treated with a lunch they will remember. We would be happy to work together with your company representatives in order to create an inspiring and successful lunch event. 
           </div> 
         </div>
@@ -160,7 +159,7 @@
           <h1 style="background: #e6a1a1; font-size: 200%">Pitch Perfect
           </h1>
           <br><br><br><br>
-          <div style="background: #f1c9c9; font-size: 150%; width: 400px; border-radius: 25px;padding: 10px;">Together with other companies and a moderator, you get the chance to meet students during lunch. While you pitch your company in a fun and original setting, we aim to open up a dialogue with the students. This can be especially cost-effective for companies who want to showcase a smaller part of their organisation. Example of themes: gender equality, innovation, international opportunities, sustainability and career opportunities.
+          <div class="text" style="background: #f1c9c9; font-size: 150%; border-radius: 25px;padding: 10px;">Together with other companies and a moderator, you get the chance to meet students during lunch. While you pitch your company in a fun and original setting, we aim to open up a dialogue with the students. This can be especially cost-effective for companies who want to showcase a smaller part of their organisation. Example of themes: gender equality, innovation, international opportunities, sustainability and career opportunities.
           </div>
         </div>
       </div>
@@ -196,7 +195,7 @@
           <h1 style="background: #fde19c; font-size: 200%">Swedish Fika
           </h1>
           <br><br><br><br>
-          <div style="background: #fef0ce; font-size: 150%; width: 500px; border-radius: 25px;padding: 10px;">Meet the students and talk about your company’s culture while getting to know what they are passionate about. With smoothies, coffee or something else that could reflect the environment at your company they will have a better understanding of which possibilities lies within your sphere.
+          <div class="text2" style="background: #fef0ce; font-size: 150%; border-radius: 25px;padding: 10px;">Meet the students and talk about your company’s culture while getting to know what they are passionate about. With smoothies, coffee or something else that could reflect the environment at your company they will have a better understanding of which possibilities lies within your sphere.
           </div> 
         </div>
         
@@ -206,7 +205,7 @@
           <h1 style="background: #fde19c; font-size: 200%">Mock Interview
           </h1>
           <br><br><br><br>
-          <div style="background: #fef0ce; font-size: 150%; width: 500px; border-radius: 25px;padding: 10px;">Together with some afternoon fika you get the opportunity to meet students one by one. A mock interview is a great opportunity to get to know students in an undisturbed and relaxed environment. The students can apply with their CV and your company have free hands to design the conversation. This will be an interactive afternoon where both you and the students learn about each other. We will book rooms at KTH Campus and you can enjoy an afternoon with handpicked students who are looking forward to meeting you.
+          <div class="text2" style="background: #fef0ce; font-size: 150%; border-radius: 25px;padding: 10px;">Together with some afternoon fika you get the opportunity to meet students one by one. A mock interview is a great opportunity to get to know students in an undisturbed and relaxed environment. The students can apply with their CV and your company have free hands to design the conversation. This will be an interactive afternoon where both you and the students learn about each other. We will book rooms at KTH Campus and you can enjoy an afternoon with handpicked students who are looking forward to meeting you.
           </div>
         </div>
       </div>
@@ -319,5 +318,23 @@ export default {
   top: 0px;
   left: 0px;
   background-color: #000;
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .text .text2 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .text .text2 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .text {
+    width: 400px;
+  }
+  .text2 {
+    width: 500px;
+  }
 }
 </style>
