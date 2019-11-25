@@ -1,34 +1,39 @@
 <template>
   <div>
-  	<section style="min-height:100vh">
+    <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
+        crossorigin="anonymous">
+  	<section class="background">
       <div class="section has-text-centered">
         <img src="../assets/logo.png">
         <br><br>
         <h1 class="uppercase hero pd-font has-text-black" style="font-size: 300%;">Project Destination</h1>
         <div class="has-text-black" style="font-style: italic; font-size: 150%;">For companies
         </div>
+        <i class="fa fa-angle-down" style="font-size: 150%;" @click="scroll('intro')"></i>
         <br><br><br><br><br><br><br><br>
-        <div class="columns" style="background: gray;">
+      </div>
+          <div class="columns">
           <div class="column has-text-black"><img src="../assets/forCompanies/westForest.png" style="width: 100px;">
           </div>
-        	<div class="column has-text-black"><img src="../assets/forCompanies/sverigesIn.png" style="width: 100px;">
+          <div class="column has-text-black"><img src="../assets/forCompanies/sverigesIn.png" style="width: 100px;">
           </div>
-        	<div class="colun has-text-black"><br><img src="../assets/forCompanies/seb.png" style="width: 100px;"></div>
-        	<div class="column has-text-black"><br><img src="../assets/forCompanies/SJ.png" style="width: 100px;"></div>
+          <div class="colun has-text-black"><br><img src="../assets/forCompanies/seb.png" style="width: 100px;"></div>
+          <div class="column has-text-black"><br><img src="../assets/forCompanies/SJ.png" style="width: 100px;"></div>
           
           <div class="column has-text-black"><br><img src="../assets/forCompanies/businessvision.png" style="width: 250px;"></div>
           <div class="column has-text-black"><br><img src="../assets/forCompanies/riskPilot.png" style="width: 250px;"></div>
           <div class="column has-text-black"><img src="../assets/forCompanies/hemso.png" style="width: 200px;"></div>
         </div>
-      </div>
     </section>
     <section style="min-height: 100vh;">
     	<div>
     		<div class="columns">
-    			<div class="column" style="min-height: 20vh;"></div>
+    			<div class="column" style="min-height: 7vh;"></div>
     		</div>
     		<div class="columns" data-aos="fade-left" data-aos-duration="1500">
-	            <div class="column has-text-black" style="font-size: 400%; font-weight: 900;"> 
+	            <div id="intro" class="column has-text-black" style="font-size: 400%; font-weight: 900;"> 
 	            	What is project destination?
 	            </div>
          	</div>
@@ -56,8 +61,8 @@
             <br>
             <br>
             We tailor everything accordning to your needs, but to give you some inspiration, we have listed some standard events below
-            <br>
-            <br>
+            <br><br><br><br><br><br>
+            
 			</div>
 			<div class="column"></div>
     </div>
@@ -86,7 +91,7 @@
       </div>
     </div>
   </section>
-
+  
   <section class="background3">
     <br><br><br><br><br><br>
     <div class="columns" style="text-align: center;">
@@ -213,7 +218,6 @@
       </div>
     </div>
   </section>
-
   </div>
 </template>
 
@@ -225,15 +229,18 @@ export default {
   methods: {
     handleClick(path) {
       this.$router.push(path);
+    },
+    scroll(id) {
+      document.getElementById(id).scrollIntoView({ behavior: "smooth" });
     }
   }
 };
 </script>
 <style scoped lang="scss">
 .background {
-  background: url(../assets/forCompanies/eventpic1.jpg) center !important;
+  background: url(../assets/forCompanies/titlepic.jpg) center !important;
   background-size: cover !important;
-  min-height: 70vh;
+  min-height: 50vh;
 }
 .background2 {
   background: url(../assets/forCompanies/eventpic2.jpg) center !important;
@@ -295,14 +302,12 @@ export default {
   top: 8px;
   right: 16px;
 }
-
 /* Bottom right text */
 .bottom-right {
   position: absolute;
   bottom: 8px;
   right: 16px;
 }
-
 /* Centered text */
 .centered {
   position: absolute;
