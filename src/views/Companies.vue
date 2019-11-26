@@ -1,5 +1,6 @@
 <template>
   <div>
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
     <link rel="stylesheet" 
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
@@ -55,17 +56,17 @@
          	</div>
          	<div class="column"></div>
          </div>
-         <div class="columns" style="text-align: center;" data-aos="fade-up">
+         <div class="columns" style="text-align: center; width: 100%;" data-aos="fade-up">
          	<div class="column"></div>
-         	<div class="column-2" style="font-size: 150%;">We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
+         	<div class="column" style="font-size: 150%;">We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
             <br>
             <br>
             We tailor everything accordning to your needs, but to give you some inspiration, we have listed some standard events below
             <br><br><br><br><br><br>
             
-			</div>
-			<div class="column"></div>
-    </div>
+			   </div>
+			   <div class="column"></div>
+        </div>
 	</section>
   <section class="background2">
     <div class="columns" data-aos="fade-up">
@@ -333,6 +334,9 @@ export default {
 }
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .text .text2 {
+    width: 100%;
+  }
+  .column {
     width: 100%;
   }
 }
