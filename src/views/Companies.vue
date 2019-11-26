@@ -5,43 +5,68 @@
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
-  	<section class="background">
-      <div class="section has-text-centered">
-        <img src="../assets/logo.png">
-        <br><br>
-        <h1 class="uppercase hero pd-font has-text-black" style="font-size: 300%;">Project Destination</h1>
-        <div class="has-text-black" style="font-style: italic; font-size: 150%;">For companies
+
+
+
+    <section class="background">
+      <div style="width: 100%;">
+        <div class="columns test">
+          <div class="column">
+            <br><br><br>
+            <div class="column has-text-centered"><img src="../assets/forCompanies/SJ.png" style="width: 100px;"></div>
+            <br><br>
+            <div class="column"><img src="../assets/forCompanies/sverigesIn.png" style="width: 100px;">
+            </div>
+          </div>
+
+          <div class="column has-text-centered">
+            <img src="../assets/logo.png">
+            <br><br>
+            <h1 class="uppercase hero pd-font has-text-black" style="font-size: 300%;">Project Destination
+            </h1>
+            <div class="has-text-black" style="font-style: italic; font-size: 150%;">For companies
+            </div>
+            <i class="fa fa-angle-down" style="font-size: 150%;" @click="scroll('intro')"></i>
+          </div>
+
+          <div class="column">
+            <div class="columns test">
+              <div class="column"><br><img src="../assets/forCompanies/seb.png" style="width: 100px;">
+                <br><br><br><br><br><br><br><br><br><br>
+                <img src="../assets/forCompanies/riskPilot.png" style="width: 250px;">
+              </div>
+              <div class="column">
+              </div>
+            </div>
+          </div>
         </div>
-        <i class="fa fa-angle-down" style="font-size: 150%;" @click="scroll('intro')"></i>
-        <br><br><br><br><br><br><br><br>
+
+        <div class="columns test">
+          <div class="column has-text-centered">
+            <img src="../assets/forCompanies/hemso.png" style="width: 200px;">
+          </div>
+          <div class="column has-text-centered">
+            <br><br><br><br><br><br>
+            <img src="../assets/forCompanies/westForest.png" style="width: 100px;">
+          </div>
+        </div>
       </div>
-          <div class="columns" style="width: 100%; text-align: center;">
-          <div class="column"><img src="../assets/forCompanies/westForest.png" style="width: 100px;">
-          </div>
-          <div class="column"><img src="../assets/forCompanies/sverigesIn.png" style="width: 100px;">
-          </div>
-          <div class="colun"><br><img src="../assets/forCompanies/seb.png" style="width: 100px;"></div>
-          <div class="column"><br><img src="../assets/forCompanies/SJ.png" style="width: 100px;"></div>
-          
-          <div class="column"><br><img src="../assets/forCompanies/businessvision.png" style="width: 250px;"></div>
-          <div class="column"><br><img src="../assets/forCompanies/riskPilot.png" style="width: 250px;"></div>
-          <div class="column"><img src="../assets/forCompanies/hemso.png" style="width: 200px;"></div>
-        </div>
     </section>
+
+
+
     <section style="min-height: 100vh;">
     	<div>
-    		<div class="columns">
-    			<div class="column" style="min-height: 7vh;"></div>
-    		</div>
+        <br><br><br>
     		<div class="columns" data-aos="fade-left" data-aos-duration="1500">
 	            <div id="intro" class="column has-text-black" style="font-size: 400%; font-weight: 900;"> 
 	            	What is project destination?
 	            </div>
-         	</div>
          </div>
+      </div>
          <div class="columns">
-         	<div class="column" style="font-size: 150%;" data-aos="fade-left">Project Destination (PD) is one of few Employer Branding projects at KTH that reach all kind of different students. Its focus is on the international market, where students and companies meet and  establish contact for future worldwide collaborations. Every company wants to hire the best employees, but finding them can be difficult. Through our wide network and marketing channels, we will reach the candidates your company are looking for.
-			</div>
+         	<div class="column" style="font-size: 150%; padding-left: 2%;" data-aos="fade-left">Project Destination (PD) is one of few Employer Branding projects at KTH that reach all kind of different students. Its focus is on the international market, where students and companies meet and  establish contact for future worldwide collaborations. Every company wants to hire the best employees, but finding them can be difficult. Through our wide network and marketing channels, we will reach the candidates your company are looking for.
+			     </div>
          </div>
     	
     	<br>
@@ -68,30 +93,35 @@
 			   <div class="column"></div>
         </div>
 	</section>
+
   <section class="background2">
-    <div class="columns" data-aos="fade-up">
-      <div class="column has-text-white">
-        <h1 style="font-size: 500%; background-color: black;">Morning Events</h1>
-      </div>
+    <div data-aos="fade-up">
+      <br>
+      <h1 class="has-text-white" style="font-size: 500%; background-color: black;">Morning Events</h1>
     </div>
-    <br>
-    <br>
-    <div class="columns" data-aos="fade-left">
-      <div class="column has-text-white" style="font-size: 200%; background-color: black; width: 100%;">
+    <div>
+      <br><br><br>
+      <div class="columns" style="padding-left: 2%;">
+        <div data-aos="fade-left" class="column has-text-white" style="font-size: 200%; background-color: black;">
         Morning events are a great way to brand your company to students on their way to their first lecture of the day.
+        </div>
+
+        <div class="column">
+        </div>
       </div>
-      <div class="column">
-      </div>
-    </div>
-    <br><br><br><br><br><br>
-    <div class="columns">
-      <div class="column">
-      </div>
-      <div class="column has-text-white" style="font-size: 200%; background-color: black; width: 100%;" data-aos="fade-right">
-        Catch them in the early hours and be sure you’ll stay in their minds for the rest of the day. If desired, we can target any students you’re interested in, no matter their education.
+      <br><br><br><br><br>
+      <div class="columns" style="padding-right: 2%;">
+        <div class="column">
+
+        </div>
+        <div class="column has-text-white" style="font-size: 200%; background-color: black;" data-aos="fade-right">
+          Catch them in the early hours and be sure you’ll stay in their minds for the rest of the day. If desired, we can target any students you’re interested in, no matter their education.
+        </div>
       </div>
     </div>
   </section>
+
+
   
   <section class="background3">
     <br><br><br><br><br><br>
@@ -127,18 +157,18 @@
         <h1 style="font-size: 500%; background-color: black;">Lunch Events</h1>
       </div>
     </div>
-        <div class="columns" data-aos="fade-left" style="width: 100%;">
-      <div class="column has-text-white" style="font-size: 200%; background-color: black; width: 100%;">
-        We promise to deliver outstanding events and the lunch presentation is no exception. A fun presentation in combination with great food is an unforgettable way to present your company as a future employer.
+      <div class="columns" data-aos="fade-left" style="padding-left: 2%;">
+        <div class="column has-text-white" style="font-size: 180%; background-color: black;">
+          We promise to deliver outstanding events and the lunch presentation is no exception. A fun presentation in combination with great food is an unforgettable way to present your company as a future employer.
+        </div>
+        <div class="column">
+        </div>
       </div>
+      <br><br><br><br><br><br>
+    <div class="columns" style="padding-right: 2%;">
       <div class="column">
       </div>
-    </div>
-    <br><br><br><br><br><br>
-    <div class="columns" style="width: 100%;">
-      <div class="column">
-      </div>
-      <div class="column has-text-white" style="font-size: 200%; background-color: black; width: 100%;" data-aos="fade-right">
+      <div class="column has-text-white" style="font-size: 180%; background-color: black;" data-aos="fade-right">
         Through our years of holding lunch presentation we are in a great position to assist your representatives on how to deliver the best presentation they can and ways to optimize their time when speaking to up to 100 attentive and curious students.
       </div>
     </div>
@@ -182,8 +212,8 @@
         </h1>
       </div>
     </div>
-        <div class="columns" style="width: 100%;" data-aos="fade-left">
-      <div class="column has-text-white" style="font-size: 200%; background-color: black; width: 100%;">
+        <div class="columns" style="padding-left: 2%;" data-aos="fade-left">
+      <div class="column has-text-white" style="font-size: 200%; background-color: black;">
         Let students get to know a new side of your company, during a relaxing meeting. This is a good opportunity to present your company, talk about something you are passionate about and get to know the students skills.
       </div>
       <div class="column">
@@ -241,13 +271,13 @@ export default {
 .background {
   background: url(../assets/forCompanies/titlepic.jpg) center !important;
   background-size: cover !important;
-  min-height: 50vh;
+  min-height: 102vh;
   width: 100%;
 }
 .background2 {
   background: url(../assets/forCompanies/eventpic2.jpg) center !important;
   background-size: cover !important;
-  min-height: 100vh;
+  min-height: 102vh;
   width: 100%;
 }
 .background3 {
@@ -259,7 +289,7 @@ export default {
 .background4 {
   background: url(../assets/forCompanies/eventpic4.jpg) center !important;
   background-size: cover !important;
-  min-height: 115vh;
+  min-height: 100vh;
   width: 100%;
 }
 .background5 {
@@ -336,13 +366,18 @@ export default {
   .text .text2 {
     width: 100%;
   }
-  .column {
-    width: 100%;
+  .test {
+    text-align: center;
+    padding-left: 0%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .text .text2 {
     width: 100%;
+  }
+  .test {
+    text-align: center;
+    padding-left: 0%;
   }
 }
 @media screen and (min-width: 1024px) {
