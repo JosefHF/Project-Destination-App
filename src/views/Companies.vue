@@ -14,17 +14,17 @@
         <i class="fa fa-angle-down" style="font-size: 150%;" @click="scroll('intro')"></i>
         <br><br><br><br><br><br><br><br>
       </div>
-          <div class="columns">
-          <div class="column has-text-black"><img src="../assets/forCompanies/westForest.png" style="width: 100px;">
+          <div class="columns" style="width: 100%; text-align: center;">
+          <div class="column"><img src="../assets/forCompanies/westForest.png" style="width: 100px;">
           </div>
-          <div class="column has-text-black"><img src="../assets/forCompanies/sverigesIn.png" style="width: 100px;">
+          <div class="column"><img src="../assets/forCompanies/sverigesIn.png" style="width: 100px;">
           </div>
-          <div class="colun has-text-black"><br><img src="../assets/forCompanies/seb.png" style="width: 100px;"></div>
-          <div class="column has-text-black"><br><img src="../assets/forCompanies/SJ.png" style="width: 100px;"></div>
+          <div class="colun"><br><img src="../assets/forCompanies/seb.png" style="width: 100px;"></div>
+          <div class="column"><br><img src="../assets/forCompanies/SJ.png" style="width: 100px;"></div>
           
-          <div class="column has-text-black"><br><img src="../assets/forCompanies/businessvision.png" style="width: 250px;"></div>
-          <div class="column has-text-black"><br><img src="../assets/forCompanies/riskPilot.png" style="width: 250px;"></div>
-          <div class="column has-text-black"><img src="../assets/forCompanies/hemso.png" style="width: 200px;"></div>
+          <div class="column"><br><img src="../assets/forCompanies/businessvision.png" style="width: 250px;"></div>
+          <div class="column"><br><img src="../assets/forCompanies/riskPilot.png" style="width: 250px;"></div>
+          <div class="column"><img src="../assets/forCompanies/hemso.png" style="width: 200px;"></div>
         </div>
     </section>
     <section style="min-height: 100vh;">
@@ -76,7 +76,7 @@
     <br>
     <br>
     <div class="columns" data-aos="fade-left">
-      <div class="column has-text-white" style="font-size: 200%; background-color: black;">
+      <div class="column has-text-white" style="font-size: 200%; background-color: black; width: 100%;">
         Morning events are a great way to brand your company to students on their way to their first lecture of the day.
       </div>
       <div class="column">
@@ -86,7 +86,7 @@
     <div class="columns">
       <div class="column">
       </div>
-      <div class="column has-text-white" style="font-size: 200%; background-color: black;" data-aos="fade-right">
+      <div class="column has-text-white" style="font-size: 200%; background-color: black; width: 100%;" data-aos="fade-right">
         Catch them in the early hours and be sure you’ll stay in their minds for the rest of the day. If desired, we can target any students you’re interested in, no matter their education.
       </div>
     </div>
@@ -126,18 +126,18 @@
         <h1 style="font-size: 500%; background-color: black;">Lunch Events</h1>
       </div>
     </div>
-        <div class="columns" data-aos="fade-left">
-      <div class="column has-text-white" style="font-size: 200%; background-color: black;">
+        <div class="columns" data-aos="fade-left" style="width: 100%;">
+      <div class="column has-text-white" style="font-size: 200%; background-color: black; width: 100%;">
         We promise to deliver outstanding events and the lunch presentation is no exception. A fun presentation in combination with great food is an unforgettable way to present your company as a future employer.
       </div>
       <div class="column">
       </div>
     </div>
     <br><br><br><br><br><br>
-    <div class="columns">
+    <div class="columns" style="width: 100%;">
       <div class="column">
       </div>
-      <div class="column has-text-white" style="font-size: 200%; background-color: black;" data-aos="fade-right">
+      <div class="column has-text-white" style="font-size: 200%; background-color: black; width: 100%;" data-aos="fade-right">
         Through our years of holding lunch presentation we are in a great position to assist your representatives on how to deliver the best presentation they can and ways to optimize their time when speaking to up to 100 attentive and curious students.
       </div>
     </div>
@@ -175,14 +175,14 @@
 
 
   <section class="background6">
-    <div class="columns" data-aos="fade-up">
+    <div class="columns" data-aos="fade-up" >
       <div class="column has-text-white">
         <h1 style="font-size: 500%; background-color: black;">Afternoon Events
         </h1>
       </div>
     </div>
-        <div class="columns" data-aos="fade-left">
-      <div class="column has-text-white" style="font-size: 200%; background-color: black;">
+        <div class="columns" style="width: 100%;" data-aos="fade-left">
+      <div class="column has-text-white" style="font-size: 200%; background-color: black; width: 100%;">
         Let students get to know a new side of your company, during a relaxing meeting. This is a good opportunity to present your company, talk about something you are passionate about and get to know the students skills.
       </div>
       <div class="column">
@@ -241,36 +241,43 @@ export default {
   background: url(../assets/forCompanies/titlepic.jpg) center !important;
   background-size: cover !important;
   min-height: 50vh;
+  width: 100%;
 }
 .background2 {
   background: url(../assets/forCompanies/eventpic2.jpg) center !important;
   background-size: cover !important;
   min-height: 100vh;
+  width: 100%;
 }
 .background3 {
   background: url(../assets/forCompanies/eventpic3.jpg) center !important;
   background-size: cover !important;
   min-height: 110vh;
+  width: 100%;
 }
 .background4 {
   background: url(../assets/forCompanies/eventpic4.jpg) center !important;
   background-size: cover !important;
   min-height: 115vh;
+  width: 100%;
 }
 .background5 {
   background: url(../assets/forCompanies/eventpic5.jpg) center !important;
   background-size: cover !important;
   min-height: 110vh;
+  width: 100%;
 }
 .background6 {
   background: url(../assets/forCompanies/eventpic6.jpg) center !important;
   background-size: cover !important;
   min-height: 110vh;
+  width: 100%;
 }
 .background7 {
   background: url(../assets/forCompanies/eventpic7.jpg) center !important;
   background-size: cover !important;
   min-height: 120vh;
+  width: 100%;
 }
 
 /* Container holding the image and the text */
