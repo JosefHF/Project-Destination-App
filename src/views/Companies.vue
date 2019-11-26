@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="width: 100%;">
     <meta name="viewport" content= "width=device-width, user-scalable=no">
     <link rel="stylesheet" 
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
