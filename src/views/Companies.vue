@@ -19,7 +19,7 @@
     <section class="background">
       <div class="hero-body">
         <div class="columns test">
-            <div class="column">
+            <div class="column test2">
               <br><br><br>
               <div class="column has-text-centered"><img src="../assets/forCompanies/SJ.png" style="width: 100px;"></div>
               <br><br>
@@ -37,7 +37,7 @@
               <i class="fa fa-angle-down" style="font-size: 150%;" @click="scroll('intro')"></i>
             </div>
 
-            <div class="column">
+            <div class="column test2">
               <div class="columns test">
                 <div class="column"><br><img src="../assets/forCompanies/seb.png" style="width: 100px;">
                   <br><br><br><br><br><br><br><br><br><br>
@@ -49,7 +49,7 @@
             </div>
           </div>
 
-          <div class="columns test">
+          <div class="columns test test2">
             <div class="column has-text-centered">
               <img src="../assets/forCompanies/hemso.png" style="width: 200px;">
             </div>
@@ -104,8 +104,8 @@
       <br>
       <h1 class="has-text-white" style="font-size: 500%; background-color: black;">Morning Events</h1>
     </div>
+    <br>
     <div class="hero-body">
-      <br><br><br>
       <div class="columns titles">
         <div data-aos="fade-left" class="column has-text-white" style=" background-color: black;">
         Morning events are a great way to brand your company to students on their way to their first lecture of the day.
@@ -445,8 +445,11 @@ export default {
     text-align: center;
     padding-left: 0%;
   }
+  .test2 {
+    display: none;
+  }
   .titles .titles2 {
-    font-size: 170%;
+    font-size: 200%;
     padding-left: 0%;
     padding-right: 0%;
   }
