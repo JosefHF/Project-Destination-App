@@ -69,12 +69,11 @@
                 What is project destination?
               </div>
          </div>
-      </div>
-         <div class="columns">
-          <div class="column padding" style="font-size: 150%;" data-aos="fade-left">Project Destination (PD) is one of few Employer Branding projects at KTH that reach all kind of different students. Its focus is on the international market, where students and companies meet and  establish contact for future worldwide collaborations. Every company wants to hire the best employees, but finding them can be difficult. Through our wide network and marketing channels, we will reach the candidates your company are looking for.
-           </div>
-         </div>
       
+         <div class="columns">
+          <div class="column" style="font-size: 150%;" data-aos="fade-left">Project Destination (PD) is one of few Employer Branding projects at KTH that reach all kind of different students. Its focus is on the international market, where students and companies meet and  establish contact for future worldwide collaborations. Every company wants to hire the best employees, but finding them can be difficult. Through our wide network and marketing channels, we will reach the candidates your company are looking for.
+          </div>
+         </div>
       <br>
       <br>
       <br>
@@ -87,7 +86,7 @@
           </div>
           <div class="column"></div>
          </div>
-         <div class="columns" style="text-align: center; width: 100%;" data-aos="fade-up">
+         <div class="columns" style="text-align: center;" data-aos="fade-up">
           <div class="column"></div>
           <div class="column-8" style="font-size: 150%;">We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
             <br>
@@ -97,6 +96,7 @@
          </div>
          <div class="column"></div>
         </div>
+    </div>
   </section>
 
   <section class="background2" style="overflow: hidden;">
@@ -104,10 +104,10 @@
       <br>
       <h1 class="has-text-white" style="font-size: 500%; background-color: black;">Morning Events</h1>
     </div>
-    <div>
+    <div class="hero-body">
       <br><br><br>
-      <div class="columns" style="padding-left: 2%;">
-        <div data-aos="fade-left" class="column titles has-text-white" style=" background-color: black;">
+      <div class="columns titles">
+        <div data-aos="fade-left" class="column has-text-white" style=" background-color: black;">
         Morning events are a great way to brand your company to students on their way to their first lecture of the day.
         </div>
 
@@ -115,12 +115,10 @@
         </div>
       </div>
       <br><br><br><br><br>
-      <div class="columns" style="padding-right: 2%;">
-        <div class="column">
-
-        </div>
-        <div class="column titles has-text-white" style="background-color: black;" data-aos="fade-right">
-          Catch them in the early hours and be sure you’ll stay in their minds for the rest of the day. If desired, we can target any students you’re interested in, no matter their education.
+      <div class="columns titles2" >
+        <div class="column"></div>
+        <div class="column has-text-white" style="background-color: black;" data-aos="fade-right">
+        Catch them in the early hours and be sure you’ll stay in their minds for the rest of the day. If desired, we can target any students you’re interested in, no matter their education.
         </div>
       </div>
     </div>
@@ -129,14 +127,15 @@
 
   
   <section class="background3" style="overflow: hidden;">
-    <br><br><br><br><br><br>
+    <br><br><br>
+    <div class="hero-body">
     <div class="columns" style="text-align: center;">
       <div class="column has-text-white">
       </div>
       <div class="column">
         <div>
           <h1 style="background: #cebf98; font-size: 200%"> Meet the Early Birds</h1>
-          <br><br><br><br>
+          <br><br>
           <div class="text" style="background: #ded4bb; font-size: 150%; border-radius: 25px;padding: 10px;">
             A breakfast seminar at KTH campus or your office will give your representatives the time for a short presentation about the opportunities at your company. Combine the most important meal of the day with mingle and by giving the students a closer look at your company’s culture in a relaxed setting. We will gather students who match your company’s profile and arrange breakfast for all participants
           </div> 
@@ -146,7 +145,7 @@
         <div>
           <h1 style="background: #cebf98; font-size: 200%">Walk and Talk
           </h1>
-          <br><br><br><br>
+          <br><br>
           <div class="text" style="background: #ded4bb; font-size: 150%; border-radius: 25px;padding: 10px;">Does your company likes to follow the latest trends? Then this event is something for you. Walk and talk gives you the opportunity to meet students in a natural and fun way. Studies shows that walk and talk meetings gives better personal connection, decreases stress and increases creativity compared to a normal meeting. The event ends with a healthy and delicious breakfast. <!-- Title: #e3be89 body: #dec39e -->
           </div>
         </div>
@@ -154,6 +153,7 @@
       <div class="column">
       </div>
     </div>
+  </div>
   </section>
 
   <section class="background4" style="overflow: hidden;">
@@ -163,25 +163,28 @@
         <h1 style="font-size: 500%; background-color: black;">Lunch Events</h1>
       </div>
     </div>
-      <div class="columns" data-aos="fade-left" style="padding-left: 2%;">
-        <div class="column has-text-white" style="font-size: 180%; background-color: black;">
+    <div class="hero-body">
+      <div class="columns titles" data-aos="fade-left">
+        <div class="column has-text-white" style="background-color: black;">
           We promise to deliver outstanding events and the lunch presentation is no exception. A fun presentation in combination with great food is an unforgettable way to present your company as a future employer.
         </div>
         <div class="column">
         </div>
       </div>
       <br><br><br><br><br><br>
-    <div class="columns" style="padding-right: 2%;">
+    <div class="columns titles2">
       <div class="column">
       </div>
-      <div class="column has-text-white" style="font-size: 180%; background-color: black;" data-aos="fade-right">
+      <div class="column has-text-white" style="background-color: black;" data-aos="fade-right">
         Through our years of holding lunch presentation we are in a great position to assist your representatives on how to deliver the best presentation they can and ways to optimize their time when speaking to up to 100 attentive and curious students.
       </div>
     </div>
+  </div>
   </section>
 
   <section class="background5" style="overflow: hidden;">
-    <br><br><br><br><br><br>
+    <br><br><br>
+    <div class="hero-body">
     <div class="columns" style="text-align: center;">
       <div class="column has-text-white">
       </div>
@@ -189,7 +192,7 @@
         <div>
           <h1 style="background: #e6a1a1; font-size: 200%">Eat and Meet
           </h1>
-          <br><br><br><br>
+          <br><br>
           <div class="text" style="background: #f1c9c9; font-size: 150%; border-radius: 25px;padding: 10px;">
             Present your company’s career opportunities and culture, while the students are treated with a lunch they will remember. We would be happy to work together with your company representatives in order to create an inspiring and successful lunch event. 
           </div> 
@@ -200,7 +203,7 @@
         <div>
           <h1 style="background: #e6a1a1; font-size: 200%">Pitch Perfect
           </h1>
-          <br><br><br><br>
+          <br><br>
           <div class="text" style="background: #f1c9c9; font-size: 150%; border-radius: 25px;padding: 10px;">Together with other companies and a moderator, you get the chance to meet students during lunch. While you pitch your company in a fun and original setting, we aim to open up a dialogue with the students. This can be especially cost-effective for companies who want to showcase a smaller part of their organisation. Example of themes: gender equality, innovation, international opportunities, sustainability and career opportunities.
           </div>
         </div>
@@ -208,6 +211,7 @@
       <div class="column">
       </div>
     </div>
+  </div>
   </section>
 
 
@@ -218,17 +222,20 @@
         </h1>
       </div>
     </div>
-        <div class="columns" style="padding-left: 2%;" data-aos="fade-left">
-      <div class="column has-text-white" style="font-size: 200%; background-color: black;">
+    <div class="hero-body">
+        <div class="columns titles" data-aos="fade-left">
+      <div class="column has-text-white" style="background-color: black;">
         Let students get to know a new side of your company, during a relaxing meeting. This is a good opportunity to present your company, talk about something you are passionate about and get to know the students skills.
       </div>
       <div class="column">
       </div>
     </div>
+  </div>
   </section>
 
   <section class="background7" style="overflow: hidden;">
-    <br><br><br><br><br><br>
+    <br><br><br>
+    <div class="hero-body">
     <div class="columns" style="text-align: center;">
       <div class="column has-text-white">
       </div>
@@ -236,7 +243,7 @@
         <div>
           <h1 style="background: #fde19c; font-size: 200%">Swedish Fika
           </h1>
-          <br><br><br><br>
+          <br><br>
           <div class="text2" style="background: #fef0ce; font-size: 150%; border-radius: 25px;padding: 10px;">Meet the students and talk about your company’s culture while getting to know what they are passionate about. With smoothies, coffee or something else that could reflect the environment at your company they will have a better understanding of which possibilities lies within your sphere.
           </div> 
         </div>
@@ -246,7 +253,7 @@
         <div>
           <h1 style="background: #fde19c; font-size: 200%">Mock Interview
           </h1>
-          <br><br><br><br>
+          <br><br>
           <div class="text2" style="background: #fef0ce; font-size: 150%; border-radius: 25px;padding: 10px;">Together with some afternoon fika you get the opportunity to meet students one by one. A mock interview is a great opportunity to get to know students in an undisturbed and relaxed environment. The students can apply with their CV and your company have free hands to design the conversation. This will be an interactive afternoon where both you and the students learn about each other. We will book rooms at KTH Campus and you can enjoy an afternoon with handpicked students who are looking forward to meeting you.
           </div>
         </div>
@@ -254,6 +261,7 @@
       <div class="column">
       </div>
     </div>
+  </div>
   </section>
 
   <section class="background8" style="overflow: hidden;">
@@ -263,8 +271,8 @@
     </div>
 
     <div class="hero-body">
-          <div class="columns" data-aos="fade-left">
-            <div class="column has-text-white" style="font-size: 180%; background-color: black;">
+          <div class="columns titles" data-aos="fade-left">
+            <div class="column has-text-white" style="background-color: black;">
             The ultimate event to get the students closer to your company culture by escaping the normal campus routine and presenting your company from the heart of your office or at a planned public place.
           </div>
           <div class="column">
@@ -301,6 +309,9 @@
     </div>
 
   </section>
+
+
+
   </div>
 </template>
 
@@ -359,7 +370,7 @@ export default {
 .background7 {
   background: url(../assets/forCompanies/eventpic7.jpg) center !important;
   background-size: cover !important;
-  min-height: 120vh;
+  min-height: 110vh;
   width: 100%;
 }
 .background8 {
@@ -434,11 +445,10 @@ export default {
     text-align: center;
     padding-left: 0%;
   }
-  .padding {
-    padding-left: 10%;
-  }
-  .titles {
+  .titles .titles2 {
     font-size: 170%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -449,11 +459,10 @@ export default {
     text-align: center;
     padding-left: 0%;
   }
-  .padding {
-    padding-left: 10%;
-  }
-  .titles {
-    font-size: 170%;
+  .titles .titles2 {
+    font-size: 200%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -463,11 +472,13 @@ export default {
   .text2 {
     width: 500px;
   }
-  .padding {
-    padding-left: 3%;
-  }
   .titles {
     font-size: 200%;
+    padding-left: 4%;
+  }
+  .titles2 {
+    font-size: 200%;
+    padding-right: 4%;
   }
 }
 </style>
