@@ -89,7 +89,7 @@
          </div>
          <div class="columns" style="text-align: center; width: 100%;" data-aos="fade-up">
           <div class="column"></div>
-          <div class="column" style="font-size: 150%;">We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
+          <div class="column-8" style="font-size: 150%;">We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
             <br>
             <br>
             We tailor everything accordning to your needs, but to give you some inspiration, we have listed some standard events below
@@ -256,6 +256,51 @@
     </div>
   </section>
 
+  <section class="background8" style="overflow: hidden;">
+    <div data-aos="fade-up">
+      <br>
+      <h1 class="has-text-white" style="font-size: 500%; background-color: black;">Evening Events</h1>
+    </div>
+
+    <div class="hero-body">
+          <div class="columns" data-aos="fade-left">
+            <div class="column has-text-white" style="font-size: 180%; background-color: black;">
+            The ultimate event to get the students closer to your company culture by escaping the normal campus routine and presenting your company from the heart of your office or at a planned public place.
+          </div>
+          <div class="column">
+        </div>
+      </div>
+    </div>
+  </section>
+    
+
+
+  <section class="background9">
+    <div class="hero-body">
+      <br><br><br><br>
+      <div class="columns">
+        <div class="column"> 
+          <h1 class="has-text-centered" style="background: #fde19c; font-size: 160%"> Office Fun Time </h1>
+          <br><br>
+          <div style="background: #fef0ce; font-size: 180%; border-radius: 25px;padding: 10px;">We offer custom-made and cost-effective events, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
+          </div> 
+        </div>
+        <div class="column">
+          <h1 class="has-text-centered" style="background: #fde19c; font-size: 160%"> Case Solving</h1>
+          <br><br>
+          <div style="background: #fef0ce; font-size: 180%; border-radius: 25px;padding: 10px;">We offer custom-made and cost-effective events, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
+          </div> 
+        </div>
+        <div class="column">
+          <h1 class="has-text-centered" style="background: #fde19c; font-size: 160%"> Activity outside the Office and Campus </h1>
+          <br><br>
+          <div style="background: #fef0ce; font-size: 180%; border-radius: 25px;padding: 10px;">We offer custom-made and cost-effective events, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
+          </div> 
+        </div>
+      </div>
+    </div>
+
+  </section>
   </div>
 </template>
 
@@ -315,6 +360,18 @@ export default {
   background: url(../assets/forCompanies/eventpic7.jpg) center !important;
   background-size: cover !important;
   min-height: 120vh;
+  width: 100%;
+}
+.background8 {
+  background: url(../assets/forCompanies/eventpic8.jpg) center !important;
+  background-size: cover !important;
+  min-height: 120vh;
+  width: 100%;
+}
+.background9 {
+  background: url(../assets/forCompanies/eventpic9.jpg) center !important;
+  background-size: cover !important;
+  min-height: 100vh;
   width: 100%;
 }
 
