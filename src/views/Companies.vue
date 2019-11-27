@@ -218,6 +218,7 @@
   <section class="background6" style="overflow: hidden;">
     <div class="columns" data-aos="fade-up" >
       <div class="column has-text-white">
+        <br>
         <h1 style="font-size: 500%; background-color: black;">Afternoon Events
         </h1>
       </div>
