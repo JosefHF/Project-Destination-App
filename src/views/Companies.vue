@@ -1,100 +1,105 @@
 <template>
-  <div style="width: 100%;">
+  <div class="Companies">
     <meta name="viewport" content= "width=device-width, user-scalable=no">
     <link rel="stylesheet" 
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
 
-
+<!--     <section class="background">
+        <div class="hero-body">
+          <div class="columns">
+            <div class="column">sa</div>
+            <div class="column">sa</div>
+            <div class="column">sa</div>
+          </div>
+        </div>
+    </section> -->
 
     <section class="background">
-      <div style="width: 100%;">
+      <div class="hero-body">
         <div class="columns test">
-          <div class="column">
-            <br><br><br>
-            <div class="column has-text-centered"><img src="../assets/forCompanies/SJ.png" style="width: 100px;"></div>
-            <br><br>
-            <div class="column"><img src="../assets/forCompanies/sverigesIn.png" style="width: 100px;">
+            <div class="column">
+              <br><br><br>
+              <div class="column has-text-centered"><img src="../assets/forCompanies/SJ.png" style="width: 100px;"></div>
+              <br><br>
+              <div class="column"><img src="../assets/forCompanies/sverigesIn.png" style="width: 100px;">
+              </div>
+            </div>
+
+            <div class="column has-text-centered">
+              <img src="../assets/logo.png">
+              <br><br>
+              <h1 class="uppercase hero pd-font has-text-black" style="font-size: 300%;">Project Destination
+              </h1>
+              <div class="has-text-black" style="font-style: italic; font-size: 150%;">For companies
+              </div>
+              <i class="fa fa-angle-down" style="font-size: 150%;" @click="scroll('intro')"></i>
+            </div>
+
+            <div class="column">
+              <div class="columns test">
+                <div class="column"><br><img src="../assets/forCompanies/seb.png" style="width: 100px;">
+                  <br><br><br><br><br><br><br><br><br><br>
+                  <img src="../assets/forCompanies/riskPilot.png" style="width: 250px;">
+                </div>
+                <div class="column">
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="column has-text-centered">
-            <img src="../assets/logo.png">
-            <br><br>
-            <h1 class="uppercase hero pd-font has-text-black" style="font-size: 300%;">Project Destination
-            </h1>
-            <div class="has-text-black" style="font-style: italic; font-size: 150%;">For companies
+          <div class="columns test">
+            <div class="column has-text-centered">
+              <img src="../assets/forCompanies/hemso.png" style="width: 200px;">
             </div>
-            <i class="fa fa-angle-down" style="font-size: 150%;" @click="scroll('intro')"></i>
-          </div>
-
-          <div class="column">
-            <div class="columns test">
-              <div class="column"><br><img src="../assets/forCompanies/seb.png" style="width: 100px;">
-                <br><br><br><br><br><br><br><br><br><br>
-                <img src="../assets/forCompanies/riskPilot.png" style="width: 250px;">
-              </div>
-              <div class="column">
-              </div>
+            <div class="column">
+              <br><br><br><br><br><br>
+              <img src="../assets/forCompanies/westForest.png" style="width: 100px;">
             </div>
           </div>
         </div>
-
-        <div class="columns test">
-          <div class="column has-text-centered">
-            <img src="../assets/forCompanies/hemso.png" style="width: 200px;">
-          </div>
-          <div class="column has-text-centered">
-            <br><br><br><br><br><br>
-            <img src="../assets/forCompanies/westForest.png" style="width: 100px;">
-          </div>
-        </div>
-      </div>
     </section>
 
-
-
-    <section style="min-height: 100vh;">
-    	<div>
+    <section style="overflow: hidden;">
+      <div class="hero-body">
         <br><br><br>
-    		<div class="columns" data-aos="fade-left" data-aos-duration="1500">
-	            <div id="intro" class="column has-text-black" style="font-size: 400%; font-weight: 900;"> 
-	            	What is project destination?
-	            </div>
+        <div class="columns" data-aos="fade-left" data-aos-duration="1500">
+              <div id="intro" class="column has-text-black" style="font-size: 400%; font-weight: 900;"> 
+                What is project destination?
+              </div>
          </div>
       </div>
          <div class="columns">
-         	<div class="column" style="font-size: 150%; padding-left: 2%;" data-aos="fade-left">Project Destination (PD) is one of few Employer Branding projects at KTH that reach all kind of different students. Its focus is on the international market, where students and companies meet and  establish contact for future worldwide collaborations. Every company wants to hire the best employees, but finding them can be difficult. Through our wide network and marketing channels, we will reach the candidates your company are looking for.
-			     </div>
+          <div class="column padding" style="font-size: 150%;" data-aos="fade-left">Project Destination (PD) is one of few Employer Branding projects at KTH that reach all kind of different students. Its focus is on the international market, where students and companies meet and  establish contact for future worldwide collaborations. Every company wants to hire the best employees, but finding them can be difficult. Through our wide network and marketing channels, we will reach the candidates your company are looking for.
+           </div>
          </div>
-    	
-    	<br>
-    	<br>
-    	<br>
-    	<br>
-    	 <div class="columns" style="text-align: center;">
-         	<div class="column"></div>
-         	<div class="column" style="font-size: 250%; font-weight: 900;">
-         		What we offer you
-         	<!--<div id="art"></div>-->
-         	</div>
-         	<div class="column"></div>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+       <div class="columns" style="text-align: center;">
+          <div class="column"></div>
+          <div class="column" style="font-size: 250%; font-weight: 900;">
+            What we offer you
+          <!--<div id="art"></div>-->
+          </div>
+          <div class="column"></div>
          </div>
          <div class="columns" style="text-align: center; width: 100%;" data-aos="fade-up">
-         	<div class="column"></div>
-         	<div class="column" style="font-size: 150%;">We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
+          <div class="column"></div>
+          <div class="column" style="font-size: 150%;">We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
             <br>
             <br>
             We tailor everything accordning to your needs, but to give you some inspiration, we have listed some standard events below
-            <br><br><br><br><br><br>
-            
-			   </div>
-			   <div class="column"></div>
+            <br><br>
+         </div>
+         <div class="column"></div>
         </div>
-	</section>
+  </section>
 
-  <section class="background2">
+  <section class="background2" style="overflow: hidden;">
     <div data-aos="fade-up">
       <br>
       <h1 class="has-text-white" style="font-size: 500%; background-color: black;">Morning Events</h1>
@@ -102,7 +107,7 @@
     <div>
       <br><br><br>
       <div class="columns" style="padding-left: 2%;">
-        <div data-aos="fade-left" class="column has-text-white" style="font-size: 200%; background-color: black;">
+        <div data-aos="fade-left" class="column titles has-text-white" style=" background-color: black;">
         Morning events are a great way to brand your company to students on their way to their first lecture of the day.
         </div>
 
@@ -114,7 +119,7 @@
         <div class="column">
 
         </div>
-        <div class="column has-text-white" style="font-size: 200%; background-color: black;" data-aos="fade-right">
+        <div class="column titles has-text-white" style="background-color: black;" data-aos="fade-right">
           Catch them in the early hours and be sure you’ll stay in their minds for the rest of the day. If desired, we can target any students you’re interested in, no matter their education.
         </div>
       </div>
@@ -123,7 +128,7 @@
 
 
   
-  <section class="background3">
+  <section class="background3" style="overflow: hidden;">
     <br><br><br><br><br><br>
     <div class="columns" style="text-align: center;">
       <div class="column has-text-white">
@@ -151,9 +156,10 @@
     </div>
   </section>
 
-  <section class="background4">
+  <section class="background4" style="overflow: hidden;">
     <div class="columns" data-aos="fade-up">
       <div class="column has-text-white">
+        <br>
         <h1 style="font-size: 500%; background-color: black;">Lunch Events</h1>
       </div>
     </div>
@@ -174,7 +180,7 @@
     </div>
   </section>
 
-  <section class="background5">
+  <section class="background5" style="overflow: hidden;">
     <br><br><br><br><br><br>
     <div class="columns" style="text-align: center;">
       <div class="column has-text-white">
@@ -205,7 +211,7 @@
   </section>
 
 
-  <section class="background6">
+  <section class="background6" style="overflow: hidden;">
     <div class="columns" data-aos="fade-up" >
       <div class="column has-text-white">
         <h1 style="font-size: 500%; background-color: black;">Afternoon Events
@@ -221,7 +227,7 @@
     </div>
   </section>
 
-  <section class="background7">
+  <section class="background7" style="overflow: hidden;">
     <br><br><br><br><br><br>
     <div class="columns" style="text-align: center;">
       <div class="column has-text-white">
@@ -249,6 +255,7 @@
       </div>
     </div>
   </section>
+
   </div>
 </template>
 
@@ -370,6 +377,12 @@ export default {
     text-align: center;
     padding-left: 0%;
   }
+  .padding {
+    padding-left: 10%;
+  }
+  .titles {
+    font-size: 170%;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .text .text2 {
@@ -379,6 +392,12 @@ export default {
     text-align: center;
     padding-left: 0%;
   }
+  .padding {
+    padding-left: 10%;
+  }
+  .titles {
+    font-size: 170%;
+  }
 }
 @media screen and (min-width: 1024px) {
   .text {
@@ -386,6 +405,12 @@ export default {
   }
   .text2 {
     width: 500px;
+  }
+  .padding {
+    padding-left: 3%;
+  }
+  .titles {
+    font-size: 200%;
   }
 }
 </style>
