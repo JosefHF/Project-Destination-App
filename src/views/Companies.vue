@@ -53,8 +53,11 @@
             <div class="column has-text-centered">
               <img src="../assets/forCompanies/hemso.png" style="width: 200px;">
             </div>
-            <div class="column">
+            <div class="column has-text-centered">
               <br><br><br><br><br><br>
+              <img src="../assets/mvb-logo.png" style="width: 200px; padding-left: 4%;">
+            </div>
+            <div class="column has-text-centered">
               <img src="../assets/forCompanies/westForest.png" style="width: 100px;">
             </div>
           </div>

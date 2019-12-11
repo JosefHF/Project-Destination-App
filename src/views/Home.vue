@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <section class="hero pd-font uppercase spacing is-large background">
+    <section class="hero pd-font uppercase spacing background">
       <nav class="navbar" role="navigation" aria-label="dropdown navigation">
         <div class="navbar-menu is-active" id="navMenu">
           <div class="navbar-start navbar">
@@ -16,7 +16,7 @@
           </div>
         </div>
       </nav>
-
+      <br><br><br><br><br>
       <div class="hero-body">
         <div class="container has-text-centered">
           <img src="@/assets/logo_white.png" style="width: 100px;">
@@ -34,9 +34,9 @@
             class="button is-pd-pink spacing"
           >For Students</a>
         </div>
+        <div class="has-text-centered pd-font has-text-white"><br><br><br><br><br><h1>Our Main Sponsor</h1><br><img src="../assets/mvb-logo.png" style="width: 20%; padding-left: 3%;"></div>
       </div>
     </section>
-
     <div class="hero pd-intro is-white">
       <div class="hero-body has-text-centered">
         <div class="section">
@@ -198,7 +198,7 @@ export default {
   background: linear-gradient(rgba(#ef9bc1, 0.2), rgba(#ef9bc1, 0.5)),
     url(../assets/team1918.jpeg) center !important;
   background-size: cover !important;
-  min-height: 70vh;
+  min-height: 100vh;
 }
 
 .background2 {
@@ -266,7 +266,7 @@ a:hover {
 
 .navbar-menu {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .navbar-brand {
   background-color: rgba(#ffffff, 0);
