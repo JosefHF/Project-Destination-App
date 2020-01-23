@@ -6,7 +6,7 @@
           The team
         </h1>
         <h2 class="subtitle pd-font uppercase spacing">
-          18/19
+          19/20
         </h2>
         <div class="container">
           <div class="content pd-font">
