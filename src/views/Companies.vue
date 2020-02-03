@@ -338,7 +338,6 @@ export default {
 .background {
   background: url(../assets/forCompanies/titlepic.jpg) center !important;
   background-size: cover !important;
-  min-height: 100vh;
   width: 100%;
 }
 .background2 {
@@ -462,6 +461,9 @@ export default {
   .textcolumn {
     font-size: 120%;
   }
+  .background {
+    min-height: 70vh;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .text .text2 {
@@ -478,6 +480,9 @@ export default {
   }
   .textcolumn {
     font-size: 1.8vw;
+  }
+  .background {
+    min-height: 90vh;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -497,6 +502,9 @@ export default {
   }
   .textcolumn {
     font-size: 1.8vw;
+  }
+  .background {
+    min-height: 100vh;
   }
 }
 .information {
