@@ -7,6 +7,7 @@ import Products from "./Products";
 import Form from "./Form";
 import Event from "./Event";
 import Companies from "./Companies";
+import Students from "./Students";
 
 export default [
   App,
@@ -17,5 +18,6 @@ export default [
   Products,
   Form,
   Event,
-  Companies
+  Companies,
+  Students
 ];

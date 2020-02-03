@@ -16,7 +16,7 @@
           </div>
         </div>
       </nav>
-      <br><br><br><br><br>
+      <br><br>
       <div class="hero-body">
         <div class="container has-text-centered">
           <img src="@/assets/logo_white.png" style="width: 100px;">
@@ -30,6 +30,7 @@
           >For Companies</a>
 
           <a
+            @click="handleClick(`/students`)"
             target="_blank"
             class="button is-pd-pink spacing"
           >For Students</a>

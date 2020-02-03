@@ -27,10 +27,10 @@
               </div>
             </div>
 
-            <div class="column has-text-centered">
-              <img src="../assets/logo.png">
+            <div class="column has-text-centered intro">
+              <img src="../assets/logo.png" style="width: 20%;">
               <br><br>
-              <h1 class="uppercase hero pd-font has-text-black" style="font-size: 300%;">Project Destination
+              <h1 class="uppercase hero pd-font has-text-black" style="font-size: 200%;">Project Destination
               </h1>
               <div class="has-text-black" style="font-style: italic; font-size: 150%;">For companies
               </div>
@@ -40,10 +40,9 @@
             <div class="column test2">
               <div class="columns test">
                 <div class="column"><br><img src="../assets/forCompanies/seb.png" style="width: 100px;">
-                  <br><br><br><br><br><br><br><br><br><br>
-                  <img src="../assets/forCompanies/riskPilot.png" style="width: 250px;">
                 </div>
                 <div class="column">
+                  <img src="../assets/forCompanies/riskPilot.png" style="width: 250px; padding-top: 130%;">
                 </div>
               </div>
             </div>
@@ -54,7 +53,7 @@
               <img src="../assets/forCompanies/hemso.png" style="width: 200px;">
             </div>
             <div class="column has-text-centered">
-              <br><br><br><br><br><br>
+              <br><br><br><br><br>
               <img src="../assets/mvb-logo.png" style="width: 200px; padding-left: 4%;">
             </div>
             <div class="column has-text-centered">
@@ -64,40 +63,38 @@
         </div>
     </section>
 
-    <section style="overflow: hidden;">
+
+    <section class="blank" style="overflow: hidden;" id="intro">
       <div class="hero-body">
-        <br><br><br>
-        <div class="columns" data-aos="fade-left" data-aos-duration="1500">
-              <div id="intro" class="column has-text-black" style="font-size: 400%; font-weight: 900;"> 
-                What is project destination?
-              </div>
-         </div>
-      
-         <div class="columns">
-          <div class="column" style="font-size: 150%;" data-aos="fade-left">Project Destination (PD) is one of few Employer Branding projects at KTH that reach all kind of different students. Its focus is on the international market, where students and companies meet and  establish contact for future worldwide collaborations. Every company wants to hire the best employees, but finding them can be difficult. Through our wide network and marketing channels, we will reach the candidates your company are looking for.
+        <div class="container information">
+          <div class="columns has-text-centered">
+            <div class="column has-text-black">
+              <h1 style="font-size: 200%; text-decoration: underline;" data-aos="fade-left">What is project destination?</h1>
+              <p class="textcolumn" data-aos="fade-up">Project Destination (PD) is one of few Employer Branding projects at KTH that reach all kind of different students. Its focus is on the international market, where students and companies meet and  establish contact for future worldwide collaborations. Every company wants to hire the best employees, but finding them can be difficult. Through our wide network and marketing channels, we will reach the candidates your company are looking for.
+            </p>
+            </div>
+            <div class="column has-text-black">
+              <h1 style="font-size: 200%; text-decoration: underline;" data-aos="fade-right">What we offer you</h1>
+              <p class="textcolumn" data-aos="fade-up">
+                We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
+                <br>
+                <br>
+                We tailor everything accordning to your needs, but to give you some inspiration, we have listed some standard events below
+                <br><br>
+              </p>
+
+            </div>
           </div>
-         </div>
-      <br>
-      <br>
-      <br>
-      <br>
-       <div class="columns" style="text-align: center;">
-          <div class="column"></div>
-          <div class="column" style="font-size: 250%; font-weight: 900;">
-            What we offer you
-          <!--<div id="art"></div>-->
+        </div>
+
+        <div class="columns has-text-centered">
+          <div class="column">
+            <p>Contact</p>
+            Project Manager: <a href="mailto:contact@test.com">sofia@projectdestination.se</a>
+            <br>
+            Sales Manager: <a href="mailto:contact@test.com">maroun@projectdestination.se</a>
+            <br>
           </div>
-          <div class="column"></div>
-         </div>
-         <div class="columns" style="text-align: center;" data-aos="fade-up">
-          <div class="column"></div>
-          <div class="column-8" style="font-size: 150%;">We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
-            <br>
-            <br>
-            We tailor everything accordning to your needs, but to give you some inspiration, we have listed some standard events below
-            <br><br>
-         </div>
-         <div class="column"></div>
         </div>
     </div>
   </section>
@@ -335,10 +332,13 @@ export default {
 };
 </script>
 <style scoped lang="scss">
+.blank {
+  min-height: 100vh;
+}
 .background {
   background: url(../assets/forCompanies/titlepic.jpg) center !important;
   background-size: cover !important;
-  min-height: 102vh;
+  min-height: 100vh;
   width: 100%;
 }
 .background2 {
@@ -398,7 +398,9 @@ export default {
   text-align: center;
   color: white;
 }
-
+.intro {
+  padding-top: 15%;
+}
 /* Bottom left text */
 .bottom-left {
   position: absolute;
@@ -487,5 +489,11 @@ export default {
     font-size: 200%;
     padding-right: 4%;
   }
+}
+.information {
+  padding-top: 5%;
+}
+.textcolumn {
+  font-size: 1.8vw;
 }
 </style>
