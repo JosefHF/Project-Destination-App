@@ -28,6 +28,25 @@
       </div>
     </div>
     <hr>
+    <div class="background3">
+      <CoolLightBox 
+        :items="items" 
+        :index="index"
+        loop
+        @close="index = null">
+      </CoolLightBox>
+      <div class="images-wrapper">
+        <div
+          class="image"
+          v-for="(image, imageIndex) in items"
+          :key="imageIndex"
+          @click="setIndex(imageIndex)"
+          :style="{ backgroundImage: 'url(' + image + ')' }"
+        ></div>
+      </div>
+
+      
+    </div>
     <!-- <div class="background3">
       <div class="hero-body">
         <div class="has-text-centered">
@@ -91,5 +110,13 @@ export default {
 }
 .textcolumn {
   font-size: 1.4vw;
+}
+.image {
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #ebebeb;
+  margin: 5px;
 }
 </style>

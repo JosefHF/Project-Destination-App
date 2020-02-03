@@ -9,6 +9,7 @@ import "./registerServiceWorker";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+
 Vue.use(Buefy);
 Vue.use(Res);
 Vue.use(Analytics, {

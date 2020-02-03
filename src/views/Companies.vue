@@ -459,6 +459,9 @@ export default {
     padding-left: 0%;
     padding-right: 0%;
   }
+  .textcolumn {
+    font-size: 120%;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .text .text2 {
@@ -472,6 +475,9 @@ export default {
     font-size: 200%;
     padding-left: 0%;
     padding-right: 0%;
+  }
+  .textcolumn {
+    font-size: 1.8vw;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -489,11 +495,11 @@ export default {
     font-size: 200%;
     padding-right: 4%;
   }
+  .textcolumn {
+    font-size: 1.8vw;
+  }
 }
 .information {
   padding-top: 5%;
-}
-.textcolumn {
-  font-size: 1.8vw;
 }
 </style>
