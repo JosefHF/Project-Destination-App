@@ -7,9 +7,13 @@
         <span>
           <h4 class="title pd-font uppercase spacing">Project Destination &copy;</h4>
           <small>
-            by Soner Vergon.
-            <br>
-            <a class="link" target="_blank" href="http://vergon.se">@Vergon Design</a>
+            <h3 class="title is-7 pd-font">Follow us at</h3>
+            <a target="_blank" href="https://www.instagram.com/projectdestination/">
+            <img class="icon" width="20px" src="@/assets/insta.png">
+            </a>
+            <a target="_blank" href="https://www.facebook.com/projectdestination/">
+              <img class="icon" width="20px" src="@/assets/fb.png">
+            </a>
           </small>
         </span>
       </div>

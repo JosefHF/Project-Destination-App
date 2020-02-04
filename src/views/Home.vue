@@ -35,7 +35,7 @@
             class="button is-pd-pink spacing"
           >For Students</a>
         </div>
-        <div class="has-text-centered pd-font has-text-white"><br><br><br><br><br><h1>Our Main Sponsor</h1><br><img src="../assets/mvb-logo.png" style="width: 20%; padding-left: 3%;"></div>
+        <div class="has-text-centered pd-font has-text-white"><br><br><br><h1>Our Main Sponsor</h1><br><img src="../assets/mvb-logo.png" style="width: 24%; padding-left: 3%;"></div>
       </div>
     </section>
     <div class="hero pd-intro is-white">

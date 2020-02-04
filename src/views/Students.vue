@@ -36,24 +36,6 @@
       </div>
       
     </div>
-    
-    <!-- <div class="background3">
-      <div class="hero-body">
-        <div class="has-text-centered">
-          <h1>Last years trip, South America</h1>
-          <div class="columns">
-            <div class="column">
-              <img src="../assets/field.jpg" style="width: 50%; border:solid;">
-            </div>
-            <div class="column">
-              <img class="zoomA" src="../assets/beach.jpg" style="width: 50%; border:solid;">
-            </div>
-          </div>
-          
-        </div>
-      </div>
-
-    </div> -->
   </div>
 </template>
 <script>
