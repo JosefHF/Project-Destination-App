@@ -170,42 +170,43 @@ export default {
           name: "Anna Phan",
           text: "",
           role: "Art Director",
-          linkedin: ""
+          linkedin: "https://www.linkedin.com/in/anna-phan-b06750108/"
         },
         sofia: {
           name: "Sofia Larsson",
           text: "",
           role: "Project Manager",
-          linkedin: ""
+          linkedin: "https://www.linkedin.com/in/sofia-larsson/"
         },
         vera: {
           name: "Vera Werner",
           text: "",
           role: "International Relations Manager",
-          linkedin: ""
+          linkedin: "https://www.linkedin.com/in/vera-werner"
         },
         felix: {
           name: "Felix Ewert",
           text: "",
           role: "Vice Project Manager",
-          linkedin: ""
+          linkedin: "www.linkedin.com/in/felixewert"
         },
         hanna: {
           name: "Hanna Kerek",
           text: "",
           role: "Event manager",
-          linkedin: ""
+          linkedin: "https://linkedin.com/in/hanna-kerek"
         },
         lisa: {
           name: "Lisa A. Olsson",
           text: "",
           role: "Event Manager",
-          linkedin: ""
+          linkedin: "http://linkedin.com/in/lisa-olsson-498b93b7"
         },
         gabriella: {
           name: "Gabriella Westman",
           text: "",
-          role: "International Relations Manager"
+          role: "International Relations Manager",
+          linkedin: "https://www.linkedin.com/in/gabriella-westman-49ba62131/"
         },
         maroun: {
           name: "Maroun R Nasr",
