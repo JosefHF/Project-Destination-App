@@ -21,7 +21,7 @@
         <div class="columns test">
             <div class="column test2">
               <br><br><br>
-              <div class="column has-text-centered"><img src="../assets/forCompanies/SJ.png" style="width: 100px;"></div>
+              <div class="column has-text-centered"><img src="../assets/forCompanies/SJ.png" style="width: 100px; margin-left: 50%;"></div>
               <br><br>
               <div class="column"><img src="../assets/forCompanies/sverigesIn.png" style="width: 100px;">
               </div>
