@@ -60,6 +60,14 @@
                 </div>
                 <div class="column is-one-fifth"></div>
               </div>
+              <div class="columns has-text-centered">
+                <div class="column">
+                  <p>Contact</p>
+                  Project Manager: <a href="mailto:contact@test.com" style="color: blue;">sofia@projectdestination.se</a>
+                  <br>
+                  Sales Manager: <a href="mailto:contact@test.com" style="color: blue;">maroun@projectdestination.se</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
