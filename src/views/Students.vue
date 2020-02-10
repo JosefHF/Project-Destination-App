@@ -90,6 +90,7 @@ export default {
 .background {
   background: linear-gradient(rgba(#ef9bc1, 0.2), rgba(#ef9bc1, 0.5)),
     url(../assets/Students/World2.png) center !important;
+  image-rendering: pixelated;
 }
 .background2 {
   min-height: 60vh;

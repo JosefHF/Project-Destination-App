@@ -20,15 +20,15 @@
       <div class="hero-body">
         <div class="columns test">
             <div class="column test2">
-              <br><br><br>
-              <div class="column has-text-centered"><img src="../assets/forCompanies/SJ.png" style="width: 100px; margin-left: 50%;"></div>
+              <br>
+              <div class="column has-text-centered"><img src="../assets/forCompanies/SJ.png" style="width: 100px; margin-left: 50%; image-rendering: auto;"></div>
               <br><br>
-              <div class="column"><img src="../assets/forCompanies/sverigesIn.png" style="width: 100px;">
+              <div class="column"><img src="../assets/forCompanies/sverigesIn.png" style="width: 100px; image-rendering: auto;">
               </div>
             </div>
 
             <div class="column has-text-centered intro">
-              <img src="../assets/logo.png" style="width: 20%;">
+              <img src="../assets/logo.png" style="width: 20%; image-rendering: auto;">
               <br><br>
               <h1 class="uppercase hero pd-font has-text-black" style="font-size: 200%;">Project Destination
               </h1>
@@ -39,10 +39,10 @@
 
             <div class="column test2">
               <div class="columns test">
-                <div class="column"><br><img src="../assets/forCompanies/seb.png" style="width: 100px;">
+                <div class="column"><br><img src="../assets/forCompanies/seb.png" style="width: 100px; image-rendering: auto;">
                 </div>
                 <div class="column">
-                  <img src="../assets/forCompanies/riskPilot.png" style="width: 250px; padding-top: 130%;">
+                  <img src="../assets/forCompanies/riskPilot.png" style="width: 250px; padding-top: 130%; image-rendering: auto;">
                 </div>
               </div>
             </div>
@@ -50,14 +50,14 @@
 
           <div class="columns test test2">
             <div class="column has-text-centered">
-              <img src="../assets/forCompanies/hemso.png" style="width: 200px;">
+              <img src="../assets/forCompanies/hemso.png" style="width: 200px; image-rendering: auto;">
             </div>
             <div class="column has-text-centered">
               <br><br><br><br><br>
-              <img src="../assets/mvb-logo.png" style="width: 200px; padding-left: 4%;">
+              <img src="../assets/mvb-logo.png" style="width: 200px; padding-left: 4%; image-rendering: auto;">
             </div>
             <div class="column has-text-centered">
-              <img src="../assets/forCompanies/westForest.png" style="width: 100px;">
+              <img src="../assets/forCompanies/westForest.png" style="width: 100px; image-rendering: auto;">
             </div>
           </div>
         </div>
@@ -69,13 +69,13 @@
         <div class="container information">
           <div class="columns has-text-centered">
             <div class="column has-text-black">
-              <h1 style="font-size: 200%; text-decoration: underline;" data-aos="fade-left">What is project destination?</h1>
-              <p class="textcolumn" data-aos="fade-up">Project Destination (PD) is one of few Employer Branding projects at KTH that reach all kind of different students. Its focus is on the international market, where students and companies meet and  establish contact for future worldwide collaborations. Every company wants to hire the best employees, but finding them can be difficult. Through our wide network and marketing channels, we will reach the candidates your company are looking for.
+              <h1 style="font-size: 200%; text-decoration: underline;">What is project destination?</h1>
+              <p class="textcolumn">Project Destination (PD) is one of few Employer Branding projects at KTH that reach all kind of different students. Its focus is on the international market, where students and companies meet and  establish contact for future worldwide collaborations. Every company wants to hire the best employees, but finding them can be difficult. Through our wide network and marketing channels, we will reach the candidates your company are looking for.
             </p>
             </div>
             <div class="column has-text-black">
-              <h1 style="font-size: 200%; text-decoration: underline;" data-aos="fade-right">What we offer you</h1>
-              <p class="textcolumn" data-aos="fade-up">
+              <h1 style="font-size: 200%; text-decoration: underline;">What we offer you</h1>
+              <p class="textcolumn">
                 We offer <b>custom-made</b> and <b>cost-effective</b><b> EVENTS</b>, which will help your company to reach your target students at KTH. The events will be customized according to your desire and PD will use its wide network and marketing channels to find the candidates that your company is searching for. 
                 <br>
                 <br>
@@ -339,54 +339,63 @@ export default {
   background: url(../assets/forCompanies/titlepic.jpg) center !important;
   background-size: cover !important;
   width: 100%;
+  image-rendering: pixelated;
 }
 .background2 {
   background: url(../assets/forCompanies/eventpic2.jpg) center !important;
   background-size: cover !important;
   min-height: 102vh;
   width: 100%;
+  image-rendering: pixelated;
 }
 .background3 {
   background: url(../assets/forCompanies/eventpic3.jpg) center !important;
   background-size: cover !important;
   min-height: 110vh;
   width: 100%;
+  image-rendering: pixelated;
 }
 .background4 {
   background: url(../assets/forCompanies/eventpic4.jpg) center !important;
   background-size: cover !important;
   min-height: 100vh;
   width: 100%;
+  image-rendering: smooth;
 }
 .background5 {
   background: url(../assets/forCompanies/eventpic5.jpg) center !important;
   background-size: cover !important;
   min-height: 110vh;
   width: 100%;
+  image-rendering: pixelated;
 }
 .background6 {
   background: url(../assets/forCompanies/eventpic6.jpg) center !important;
   background-size: cover !important;
   min-height: 110vh;
   width: 100%;
+  image-rendering: pixelated;
 }
 .background7 {
   background: url(../assets/forCompanies/eventpic7.jpg) center !important;
   background-size: cover !important;
   min-height: 110vh;
   width: 100%;
+  image-rendering: pixelated;
 }
 .background8 {
   background: url(../assets/forCompanies/eventpic8.jpg) center !important;
   background-size: cover !important;
   min-height: 120vh;
   width: 100%;
+  image-rendering: pixelated;
 }
 .background9 {
   background: url(../assets/forCompanies/eventpic9.jpg) center !important;
   background-size: cover !important;
   min-height: 100vh;
   width: 100%;
+  image-rendering: pixelated;
 }
 
 /* Container holding the image and the text */
