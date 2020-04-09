@@ -1,9 +1,9 @@
 <template>
   <div class="container has-text-centered">
+    <div v-html="form.text" class="content" style="width: 60%; margin-left: auto; margin-right: auto;"></div>
     <div class="columns">
       <div class="column"></div>
       <div class="column">
-        <div v-html="form.text" class="content"></div>
         <b-field
           :type="formType"
           :message="form.settings.domain.length > 1 ? `Must be a ${form.settings.domain} mail.` : ``"
