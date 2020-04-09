@@ -15,7 +15,7 @@
         <div class="columns has-text-centered">
           <div class="column">
             <h1 class="h11">What is Project Destination?</h1>
-            <p class="textcolumn">Project Destination is just one of the most exciting and inspiring student project at KTH. It is a course (15hp) that 10 people get to take based on interviews. The course stretches from period 1 to period 4 with the goal to host different company events at KTH for students. Later on the team gets to go on a trip, of their choosing, for the money earned.
+            <p class="textcolumn">Project Destination is the most exciting and inspiring student project at KTH. To sum it up, Project Destination is a course (15hp) that 10 people get to take based on interviews. The course stretches from period 1 to period 4 with the goal to host different company events at KTH for students. Later on the team gets to go on a trip, of their choosing, for the money earned.
               <br><br>
               Does this sound interesting? Don't hesitate to sign up for a great experience. The applications will open shortly. 
             </p>
@@ -29,12 +29,55 @@
       <hr>
     </div>
     
-    <div class="background3 has-text-centered" style="overflow: hidden;"> 
-      <h1 style="font-size: 200%;">Last years trip, South America</h1>
-      <div class="hero-body">
-        <img class="picture" v-for="image in images" :src="image.image" v-bind:key="image.id"/>
+    <div>
+      <h1 class="h11" style="text-align: center;">Roles you can apply for</h1>
+
+      <div>
+        <div class="columns has-text-centered">
+          <div class="column">
+            <p id="role">Project Manager</p>
+          </div>
+          <div class="column">
+            <p id="role">Vice Project Manager</p>
+          </div>
+          <div class="column">
+            <p id="role">Sales Manager</p>
+          </div>
+        </div>
+         <div class="columns has-text-centered">
+          <div class="column">
+             <p id="role">Marketing Manager</p>
+          </div>
+          <div class="column">
+            <p id="role">IT Manager</p>
+          </div>
+          <div class="column">
+            <p id="role">Art Director</p>
+          </div>
+        </div>
+        <div class="columns has-text-centered">
+          <div class="column">
+          </div>
+          <div class="column">
+            <p id="role">International relations Manager</p>
+          </div>
+          <div class="column">
+          </div>
+        </div>
       </div>
       
+    </div>
+
+    <hr>
+    <div class="background3 has-text-centered" style="overflow: hidden;"> 
+
+      <h1 style="font-size: 200%;">Last years trip, South America</h1>
+      <p style="width: 70%; margin: auto;">In March 2019 the team behind Project Destination flew to South America on a journey. A journey to explore the opportunities of a continent far, far away. They explored some of the largest cities and deepest forests of South America. They visit companies in Buenos Aires, Sao Paolo and Rio De Janeiro, three immensely large cities with many previously unexplored opportunities. Further, they visited a university and strengthened the relations with our home university that is KTH. The trip lasted for a total of three weeks. The team had a blast and brought back a lot of what they learned to Sweden.</p>
+      <div class="hero-body">
+
+        <img class="picture" v-for="image in images" :src="image.image" v-bind:key="image.id"/>
+      </div>
+        
     </div>
   </div>
 </template>
@@ -114,6 +157,11 @@ export default {
 }
 .information {
   padding-top: 5%;
+}
+#role {
+  margin: auto;
+  border: 3px solid pink;
+  padding: 10px;
 }
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .textcolumn {

@@ -56,10 +56,10 @@
                   >Go to home page</a>
                 </div>
               </div>
-              <div class="section has-text-black events">
+              <!--<div class="section has-text-black events">
                 <h1 class="title pd-font uppercase spacing">Other events</h1>
                 <Events/>
-              </div>
+              </div>-->
             </div>
             <div class="column"></div>
           </div>
