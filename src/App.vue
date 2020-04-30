@@ -119,8 +119,8 @@ export default {
       this.loginModal();
     },
     userIsAuthenticated: function(condition) {
-      if (!condition) {
-        this.advertise();
+      if (condition) {
+        console.log();
       }
     }
   },
