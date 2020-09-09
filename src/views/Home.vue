@@ -63,9 +63,9 @@
               <div class="columns has-text-centered">
                 <div class="column">
                   <p>Contact</p>
-                  Project Manager: <a href="mailto:contact@test.com" style="color: blue;">sofia@projectdestination.se</a>
+                  Project Manager: <a href="mailto:filip@projectdestination.se" style="color: blue;">filip@projectdestination.se</a>
                   <br>
-                  Sales Manager: <a href="mailto:contact@test.com" style="color: blue;">maroun@projectdestination.se</a>
+                  Sales Manager: <a href="mailto:daniel@projectdestination.se" style="color: blue;">daniel@projectdestination.se</a>
                 </div>
               </div>
             </div>

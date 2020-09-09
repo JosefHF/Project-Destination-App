@@ -1,11 +1,11 @@
 <template>
     <article @click="profileClick" class="media">
     <div class="media-content">
-      <figure class="media-left">
+      <!-- <figure class="media-left">
         <p class="image is-90x90">
           <slot name="image"></slot>
         </p>
-      </figure>
+      </figure> -->
       <div class="content pd-font">
         <p class="pd-font">
           <strong><span class="is-5 title">{{data.name}}</span></strong> <br />
