@@ -10,8 +10,8 @@
         <p class="pd-font">
           <strong><span class="is-5 title">{{data.name}}</span></strong> <br />
           <small><span v-html="data.role" class="uppercase spacing subtitle is-6"></span></small>
-          <br>
-          {{data.text}}
+          <!-- <br> -->
+          <!-- {{data.text}} -->
         </p>
       </div>
     </div>

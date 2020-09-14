@@ -2,10 +2,10 @@
   <div class="hero pd-intro is-home">
     <div class="section">
       <div class="hero-body has-text-centered">
-        <h1 class="title pd-font uppercase spacing">
+        <h1 class="title pd-font uppercase spacing" style="color: black">
           The team
         </h1>
-        <h2 class="subtitle pd-font uppercase spacing">
+        <h2 class="subtitle pd-font uppercase spacing" style="font-family: 'Roboto Mono'">
           20/21
         </h2>
         <div class="container">

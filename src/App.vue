@@ -6,15 +6,21 @@
       <div v-if="!loading" class="content section has-text-centered">
         <span>
           <h4 class="title pd-font uppercase spacing">Project Destination &copy;</h4>
-          <small>
-            <h3 class="title is-7 pd-font">Follow us at</h3>
-            <a target="_blank" href="https://www.instagram.com/projectdestination/">
-            <img class="icon" width="20px" src="@/assets/insta.png">
-            </a>
-            <a target="_blank" href="https://www.facebook.com/projectdestination/">
-              <img class="icon" width="20px" src="@/assets/fb.png">
-            </a>
-          </small>
+          <div>
+            <h3 class="title is-7 pd-font" style="margin-bottom: 10px">Follow us</h3>
+            <div style="margin: auto; width: 60px; margin-bottom: 30px">
+              <a target="_blank" href="https://www.instagram.com/projectdestination/">
+                <div class="follow-icon-container" style="float: left">
+                  <i class='fab fa-instagram follow-icon'></i>
+                </div>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/projectdestination/">
+                <div class="follow-icon-container" style="float: right">
+                  <i class='fab fa-facebook-f follow-icon'></i>
+                </div>
+              </a>
+            </div>
+          </div>
         </span>
       </div>
     </footer>
@@ -141,7 +147,38 @@ export default {
 .pd-font {
   font-weight: 300 !important;
 }
-
+.follow-icon-container {
+  height: 26px;
+  width: 26px;
+  border-radius: 13px;
+  margin: auto;
+  position: relative;
+  background-color: black;
+}
+.follow-icon {
+  font-size: 16px;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.follow-icon-container:hover {
+  background-color: #ef9bc1;
+}
+.h11 {
+  font-size: 180%;
+  font-family: "Sumana";
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.h12 {
+  font-size: 22px;
+  font-family: "Sumana";
+  font-weight: 700;
+}
 .spacing {
   letter-spacing: 4px;
 }
@@ -157,7 +194,7 @@ export default {
 
 body {
   font-weight: 300 !important;
-  font-family: Roboto !important;
+  font-family: "Roboto" !important;
 }
 // Import Bulma's core
 @import "~bulma/sass/utilities/_all";

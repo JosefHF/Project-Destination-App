@@ -35,20 +35,20 @@
             class="button is-pd-pink spacing"
           >For Students</a>
         </div>
-        <div class="has-text-centered pd-font has-text-white"><br><br><br><h1>Our Main Sponsor</h1><br><img src="../assets/mvb-logo.png" style="width: 24%; padding-left: 3%;"></div>
+        <!-- <div class="has-text-centered pd-font has-text-white"><br><br><br><h1>Our Main Sponsor</h1><br><img src="../assets/mvb-logo.png" style="width: 24%; padding-left: 3%;"></div> -->
       </div>
     </section>
     <div class="hero pd-intro is-white">
       <div class="hero-body has-text-centered">
         <div class="section">
-          <h1 class="title pd-font uppercase spacing">Upcoming events</h1>
+          <h1 class="title h11">Upcoming events</h1>
           <div class="container">
             <div class="content pd-font">
               <div class="columns">
                 <div class="column is-one-fifth"></div>
                 <div class="parent column">
                   <Events/>
-                  <div class="section pd-font uppercase spacing">
+                  <!-- <div class="section pd-font uppercase spacing">
                     <h3 class="title is-7 pd-font">Follow us at</h3>
                     <a target="_blank" href="https://www.instagram.com/projectdestination/">
                       <img class="icon" width="20px" src="../assets/insta.png">
@@ -56,7 +56,7 @@
                     <a target="_blank" href="https://www.facebook.com/projectdestination/">
                       <img class="icon" width="20px" src="../assets/fb.png">
                     </a>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="column is-one-fifth"></div>
               </div>
@@ -73,8 +73,8 @@
         </div>
       </div>
     </div>
-<!--
-    <div class="hero pd-intro is-home" >
+
+    <!-- <div class="hero pd-intro is-home" >
       <div class="section" style="background-color:#cccccc; overflow: auto;">
         <div class="hero-body has-text-centered">
           <h1 class="title pd-font uppercase spacing">
@@ -100,8 +100,8 @@
 
           </div>
       </div>
-    </div>
-  -->
+    </div> -->
+ 
 
     <TheTeam/>
     

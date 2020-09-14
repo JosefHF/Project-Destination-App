@@ -30,10 +30,8 @@
             <div class="column has-text-centered intro">
               <img src="../assets/logo.png" style="width: 20%; image-rendering: auto;">
               <br><br>
-              <h1 class="uppercase hero pd-font has-text-black" style="font-size: 200%;">Project Destination
-              </h1>
-              <div class="has-text-black" style="font-style: italic; font-size: 150%;">For companies
-              </div>
+              <h1 class="uppercase hero pd-font has-text-black" style="font-size: 200%;">Project Destination</h1>
+              <div class="has-text-black" style="font-style: italic; font-size: 150%;">For companies</div>
               <i class="fa fa-angle-down" style="font-size: 150%;" @click="scroll('intro')"></i>
             </div>
 

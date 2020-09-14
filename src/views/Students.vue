@@ -1,35 +1,28 @@
 <template>
   <div>
-    <div class="home background" style="overflow: hidden;">
-      <div class="hero-body">
-        <div class="has-text-centered header-div">
-          <img src="../assets/Students/pd1920.png" class="pd1920">
-          <!--<h1 class="header">PROJECT DESTINATION 19/20</h1>-->
-          <h1 class="header-inverted">What is your destination?</h1>
-        </div>
+    <div class="hero-body screen-header has-text-centered is-pd-pink-invert background">
+      <div class="has-text-centered header-div">
+        <img src="@/assets/logo.png" style="width: 100px;">
+        <h1 class="title pd-font uppercase spacing" style="color: black">Project Destination</h1>
+        <div class="has-text-black" style="font-style: italic; font-size: 150%;">For students</div>
+        <i class="fa fa-angle-down" style="font-size: 150%;" @click="scroll('intro')"></i>
       </div>
     </div>
 
-    <div class="background2" style="overflow: hidden;">
-      <div class="container information">
-        <div class="columns has-text-centered">
-          <div class="column">
-            <h1 class="h11">What is Project Destination?</h1>
-            <p class="textcolumn">Project Destination is the most exciting and inspiring student project at KTH. To sum it up, Project Destination is a course (15hp) that 10 people get to take based on interviews. The course stretches from period 1 to period 4 with the goal to host different company events at KTH for students. Later on the team gets to go on a trip, of their choosing, for the money earned.
-              <br><br>
-              Does this sound interesting? Don't hesitate to sign up for a great experience. The applications will open shortly. 
-            </p>
-          </div>
-          <div class="column">
-            <h1 class="h11">Upcoming events</h1>
-            <Events/>
-          </div>
+    <div id="intro" class="container information" style="overflow: hidden;">
+      <div class="columns has-text-centered">
+        <div class="column">
+          <h1 class="h11">What is Project Destination?</h1>
+          <p class="textcolumn">Project Destination is the most exciting and inspiring student project at KTH. To sum it up, Project Destination is a course (15hp) that 10 people get to take based on interviews. The course stretches from period 1 to period 4 with the goal to host different company events at KTH for students. Later on the team gets to go on a trip, of their choosing, for the money earned.</p>
+        </div>
+        <div class="column">
+          <h1 class="h11">Upcoming events</h1>
+          <Events/>
         </div>
       </div>
-      <hr>
     </div>
     
-    <div>
+    <!-- <div>
       <h1 class="h11" style="text-align: center;">Roles you can apply for</h1>
 
       <div>
@@ -66,21 +59,20 @@
         </div>
       </div>
       
-    </div>
+    </div> -->
 
     <hr>
-    <div class="background3 has-text-centered" style="overflow: hidden;"> 
-
-      <h1 style="font-size: 200%;">Last years trip, South America</h1>
-      <p style="width: 70%; margin: auto;">In March 2019 the team behind Project Destination flew to South America on a journey. A journey to explore the opportunities of a continent far, far away. They explored some of the largest cities and deepest forests of South America. They visit companies in Buenos Aires, Sao Paolo and Rio De Janeiro, three immensely large cities with many previously unexplored opportunities. Further, they visited a university and strengthened the relations with our home university that is KTH. The trip lasted for a total of three weeks. The team had a blast and brought back a lot of what they learned to Sweden.</p>
+    <div class="has-text-centered trip" style="overflow: hidden;"> 
+      <h1 class="h11">Last years trip, South America</h1>
+      <p style="width: 70%; margin: auto;" class="textcolumn">In March 2019 the team behind Project Destination flew to South America on a journey. A journey to explore the opportunities of a continent far, far away. They explored some of the largest cities and deepest forests of South America. They visit companies in Buenos Aires, Sao Paolo and Rio De Janeiro, three immensely large cities with many previously unexplored opportunities. Further, they visited a university and strengthened the relations with our home university that is KTH. The trip lasted for a total of three weeks. The team had a blast and brought back a lot of what they learned to Sweden.</p>
       <div class="hero-body">
-
         <img class="picture" v-for="image in images" :src="image.image" v-bind:key="image.id"/>
       </div>
         
     </div>
   </div>
 </template>
+
 <script>
 import Events from "@/components/Events";
 
@@ -88,6 +80,11 @@ export default {
   name: "students",
   components: {
     Events
+  },
+  methods: {
+    scroll(id) {
+      document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+    }
   },
   data() {
     return {
@@ -131,18 +128,15 @@ export default {
 </script>
 <style scoped lang="scss">
 .background {
-  background: linear-gradient(rgba(#ef9bc1, 0.2), rgba(#ef9bc1, 0.5)),
+  background: linear-gradient(rgba(#ef9bc1, 0.5), rgba(#ef9bc1, 0.2)),
     url(../assets/Students/World2.png) center !important;
   image-rendering: pixelated;
 }
 .background2 {
   min-height: 60vh;
 }
-.background3 {
-  min-height: 60vh;
-}
 .header-div {
-  padding-top: 11%;
+  padding-top: 30vh;
 }
 .header {
   font-size: 200%;
@@ -156,7 +150,16 @@ export default {
   font-weight: 800;
 }
 .information {
-  padding-top: 5%;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.trip {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.screen-header {
+  height: 100vh;
+  background-color: #ef9bc1;
 }
 #role {
   margin: auto;
@@ -170,9 +173,6 @@ export default {
   .pd1920 {
     width: 60%;
   }
-  .h11 {
-    font-size: 150%;
-  }
   .background {
     min-height: 50vh;
     background-size: cover !important;
@@ -185,9 +185,6 @@ export default {
   .pd1920 {
     width: 30%;
   }
-  .h11 {
-    font-size: 150%;
-  }
   .background {
     min-height: 90vh;
     background-size: cover !important;
@@ -195,13 +192,10 @@ export default {
 }
 @media screen and (min-width: 1024px) {
   .textcolumn {
-    font-size: 1.4vw;
+    font-size: 120%;
   }
   .pd1920 {
     width: 25%;
-  }
-  .h11 {
-    font-size: 150%;
   }
   .background {
     min-height: 90vh;
@@ -211,6 +205,8 @@ export default {
 .picture {
   padding-left: 1em;
   padding-right: 1em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
   width: 350px;
   height: 200px;
 }
